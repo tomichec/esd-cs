@@ -1,0 +1,288 @@
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<title>Email Self-Defense - Teach your friends!</title>
+	<meta name="keywords" content="GnuPG, GPG, openpgp, surveillance, privacy, email, Enigmail" />
+	<meta name="description" content="Email surveillance violates our fundamental rights and makes free speech risky. This guide will teach you email self-defense in 40 minutes with GnuPG." />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="//static.fsf.org/nosvn/enc-dev0/css/main.css" />
+	<link rel="shortcut icon" href="//static.fsf.org/nosvn/enc-dev0/img/favicon.ico" />
+
+</head>
+<body>
+
+	<!-- ~~~~~~~~~ GnuPG Header and introduction text  ~~~~~~~~~ -->
+
+	<header class="row" id="header">
+		<div>
+			<h1>Email Self-Defense</h1>
+
+			<!-- Language list for browsers that do not have JS enabled -->
+			<ul id="languages" class="os">
+				<li><a class="current" href="/en">English - v4.0</a></li>
+				<!--<li><a href="/ar">العربية</a></li>-->
+				<li><a href="/de">Deutsch - v3.0</a></li>
+				<li><a href="/el">ελληνικά - v3.0</a></li>
+				<li><a href="/es">español - v3.0</a></li>
+				<li><a href="/fr">français - v4.0</a></li>
+				<li><a href="/it">italiano - v3.0</a></li>
+				<li><a href="/ja">日本語 - v4.0</a></li>
+				<!--<li><a href="/ko">한국어</a></li>-->
+				<!--<li><a href="/ml">മലയാളം</a></li>-->
+				<li><a href="/pt-br">português do Brasil - v3.0</a></li>
+				<li><a href="/ro">română - v3.0</a></li>
+				<li><a href="/ru">русский - v4.0</a></li>
+				<li><a href="/sq">Shqip - v4.0</a></li>
+				<li><a href="/sv">svenska - v4.0</a></li>
+				<li><a href="/tr">Türkçe - v4.0</a></li>
+				<li><a href="https://libreplanet.org/wiki/GPG_guide/Translation_Guide"><strong><span style="color: #2F5FAA;">Translate!</span></strong></a></li>
+			</ul>
+
+			<ul id="menu" class="os">
+				<li class="spacer">
+					<a href="index.html">GNU/Linux</a>
+				</li>
+				<li>
+					<a href="mac.html">Mac OS</a>
+				</li>
+				<li>
+					<a href="windows.html">Windows</a>
+				</li>
+				<li class="spacer"><a href="workshops.html" class="current">Teach your friends</a></li>
+				<li class="spacer">
+					<a href="https://fsf.org/share?u=https://u.fsf.org/zb&amp;t=Email encryption for everyone via %40fsf">
+						Share&nbsp;
+						<img src="//static.fsf.org/nosvn/enc-dev0/img/gnu-social.png" class="share-logo" alt="[GNU Social]" />&nbsp;
+						<img src="//static.fsf.org/nosvn/enc-dev0/img/pump.io.png" class="share-logo" alt="[Pump.io]" />&nbsp;
+						<img src="//static.fsf.org/nosvn/enc-dev0/img/reddit-alien.png" class="share-logo" alt="[Reddit]" />&nbsp;
+						<img src="//static.fsf.org/nosvn/enc-dev0/img/hacker-news.png" class="share-logo" alt="[Hacker News]" />
+					</a>
+				</li>
+			</ul>
+			<!-- ~~~~~~~~~ FSF Introduction ~~~~~~~~~ -->
+			<div id="fsf-intro">
+				<h3>
+					<a href="http://u.fsf.org/ys">
+						<img alt="Free Software Foundation" src="//static.fsf.org/nosvn/enc-dev0/img/fsf-logo.png" />
+					</a>
+				</h3>
+				<div class="fsf-emphasis">
+					<p>
+							We want to translate this guide
+							into more languages, and make a version for encryption on mobile
+							devices. Please donate, and help people around the world take the first
+							step towards protecting their privacy with free software.
+					</p>
+				</div>
+
+				<p><a href="https://crm.fsf.org/civicrm/contribute/transact?reset=1&amp;id=14&amp;pk_campaign=email_self_defense&amp;pk_kwd=guide_donate"><img alt="Donate" src="//static.fsf.org/nosvn/enc-dev0/img/en/donate.png" /></a>  </p>
+
+			</div><!-- End #fsf-intro -->
+
+			<!-- ~~~~~~~~~ Guide Introduction ~~~~~~~~~ -->
+			<div class="intro">
+				<p>
+					<a id="infographic" href="https://emailselfdefense.fsf.org/en/infographic.html"><img src="//static.fsf.org/nosvn/enc-dev0/img/en/infographic-button.png" alt="View &amp; share our infographic →" /></a>
+				Understanding and setting up email encryption sounds like a daunting task to many people. That's why helping your friends with GnuPG plays such an important role in helping spread encryption. Even if only one person shows up, that's still one more person using encryption who wasn't before. You have the power to help your friends keep their digital love letters private, and teach them about the importance of free software. If you use GnuPG to send and receive encrypted email, you're a perfect candidate for leading a workshop!</p>
+
+			</div><!-- End .intro -->
+
+		</div>
+	</header><!-- End #header -->
+
+	<!-- ~~~~~~~~~ Section 1: Get your friends or community interested  ~~~~~~~~~ -->
+	<section style="padding-top: 0px;" class="row" id="section1">
+		<div style="padding-top: 0px;">
+
+			<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
+			<div class="section-intro">
+				<p style="margin-top: 0px;" class="image"><img src="//static.fsf.org/nosvn/enc-dev0/img/en/screenshots/workshop-section1.png" alt="A small workshop among friends" /></p>
+				<h2><em>#1</em> Get your friends or community interested </h2>
+				<p>If you hear friends grumbling about their lack of privacy, ask them if they're interested in attending a workshop on Email Self-Defense. If your friends don't grumble about privacy, they may need some convincing. You might even hear the classic "if you've got nothing to hide, you've got nothing to fear" argument against using encryption.</p>
+				<p>Here are some talking points you can use to help explain why it's worth it to learn GnuPG. Mix and match whichever you think will make sense to your community:</p>
+
+			</div><!-- End .section-intro -->
+
+			<div id="step-aa" class="step">
+
+
+				<div class="sidebar">
+<!-- Workshops image commented out from here, to be used above instead.
+					<p><img id="workshops-image" src="//static.fsf.org/nosvn/enc-dev0/img/en/screenshots/workshop-section1.png" alt="Workshop icon"></p>-->
+				</div><!-- /.sidebar -->
+
+				<div class="main">
+					<h3>Strength in numbers</h3>
+					<p>Each person who chooses to resist mass surveillance with encryption makes it easier for others to resist as well. People normalizing the use of strong encryption has multiple powerful effects: it means those who need privacy the most, like potential whistle-blowers and activists, are more likely to learn about encryption. More people using encryption for more things also makes it harder for surveillance systems to single out those that can't afford to be found, and shows solidarity with those people.</p>
+				</div><!-- End .main -->
+
+				<div class="main">
+					<h3>People you respect may already be using encryption</h3>
+					<p>Many journalists, whistleblowers, activists, and researchers use GnuPG, so your friends might unknowingly have heard of a few people who use it already. You can search for "BEGIN PUBLIC KEY BLOCK" + keyword to help make a list of people and organizations who use GnuPG whom your community will likely recognize.</p>
+				</div><!-- End .main -->
+
+				<div class="main">
+					<h3>Respect your friends' privacy</h3>
+					<p>There's no objective way to judge what constitutes privacy-sensitive correspondence. As such, it's better not to presume that just because you find an email you sent to a friend innocuous, your friend (or a surveillance agent, for that matter!) feels the same way. Show your friends respect by encrypting your correspondence with them.</p>
+				</div><!-- End .main -->
+
+
+				<div class="main">
+					<h3>Privacy technology is normal in the physical world</h3>
+					<p>In the physical realm, we take window blinds, envelopes, and closed doors for granted as ways of protecting our privacy. Why should the digital realm be any different?</p>
+				</div><!-- End .main -->
+
+				<div class="main">
+					<h3>We shouldn't have to trust our email providers with our privacy</h3>
+					<p>Some email providers are very trustworthy, but many have incentives not to protect your privacy and security. To be empowered digital citizens, we need to build our own security from the bottom up.</p>
+				</div><!-- End .main -->
+
+
+			</div><!-- End #step-2a .step -->
+
+		</div>
+	</section><!-- End #section1 -->
+
+	<!-- ~~~~~~~~~ Section 2: Plan The Workshop  ~~~~~~~~~ -->
+	<section class="row" id="section2">
+		<div>
+			<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
+			<div class="section-intro" style="border: none; padding-bottom: 0px; margin-bottom: 0px;">
+				<h2><em>#2</em> Plan The Workshop</h2>
+				<p>Once you've got at least one interested friend, pick a date and start planning out the workshop. Tell participants to bring their computer and ID (for signing each other's keys). If you'd like to make it easy for the participants to use Diceware for choosing passwords, get a pack of dice beforehand. Make sure the location you select has an easily accessible Internet connection, and make backup plans in case the connection stops working on the day of the workshop. Libraries, coffee shops, and community centers make great locations. Try to get all the participants to set up an Enigmail-compatible email client before the event. Direct them to their email provider's IT department or help page if they run into errors.</p>
+				<p>Estimate that the workshop will take at least forty minutes plus ten minutes for each participant. Plan extra time for questions and technical glitches.</p>
+				<p>The success of the workshop requires understanding and catering to the unique backgrounds and needs of each group of participants. Workshops should stay small, so that each participant receives more individualized instruction. If more than a handful of people want to participate, keep the facilitator to participant ratio high by recruiting more facilitators, or by facilitating multiple workshops. Small workshops among friends work great!</p>
+
+
+			</div><!-- End .section-intro -->
+
+		</div>
+	</section><!-- End #section2 -->
+
+	<!-- ~~~~~~~~~ Section 3: Follow The Guide  ~~~~~~~~~ -->
+	<section class="row" id="section3">
+		<div>
+			<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
+			<div class="section-intro" style="border: none; padding-bottom: 0px; margin-bottom: 0px;">
+				<h2><em>#3</em> Follow the guide as a group</h2>
+				<p>Work through the Email Self-Defense guide a step at a time as a group. Talk about the steps in detail, but make sure not to overload the participants with minutia. Pitch the bulk of your instructions to the least tech-savvy participants. Make sure all the participants complete each step before the group moves on to the next one. Consider facilitating secondary workshops afterwards for people that had trouble grasping the concepts, or those that grasped them quickly and want to learn more.</p>
+				<p>In <a href="index.html#section2">Section 2</a> of the guide, make sure the participants upload their keys to the same keyserver so that they can immediately download each other's keys later (sometimes there is a delay in synchronization between keyservers). During <a href="index.html#section3">Section 3</a>, give the participants the option to send test messages to each other instead of or as well as Edward. Similarly, in <a href="index.html#section4">Section 4</a>, encourage the participants to sign each other's keys. At the end, make sure to remind people to safely back up their revocation certificates.</p>
+
+			</div><!-- End .section-intro -->
+		</div>
+	</section>
+
+
+	<!-- ~~~~~~~~~ Section 4: Explain the pitfalls  ~~~~~~~~~ -->
+	<section class="row" id="section4">
+		<div>
+			<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
+			<div class="section-intro" style="border: none; padding-bottom: 0px; margin-bottom: 0px;">
+				<h2><em>#4</em> Explain the pitfalls</h2>
+				<p>Remind participants that encryption works only when it's explicitly used; they won't be able to send an encrypted email to someone who hasn't already set up encryption. Also remind participants to double-check the encryption icon before hitting send, and that subjects and timestamps are never encrypted.</p>
+				<p> Explain the <a href="https://www.gnu.org/proprietary/proprietary.html">dangers of running a proprietary system</a> and advocate for free software, because without it, we can't <a href="https://www.fsf.org/bulletin/2013/fall/how-can-free-software-protect-us-from-surveillance">meaningfully resist invasions of our digital privacy and autonomy</a>.</p>
+
+
+
+			</div><!-- End .section-intro -->
+
+		</div>
+	</section><!-- End #section4 -->
+
+	<!-- ~~~~~~~~~ Section 5: Explain The Pitfalls  ~~~~~~~~~ -->
+	<section id="section5" class="row">
+		<div>
+			<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
+			<div class="section-intro" style="border: none; padding-bottom: 0px; margin-bottom: 0px;">
+				<h2><em>#5</em> Share additional resources</h2>
+				<p>GnuPG's advanced options are far too complex to teach in a single workshop. If participants want to know more, point out the advanced subsections in the guide and consider organizing another workshop. You can also share <a href="https://www.gnupg.org/documentation/index.html">GnuPG's</a> and <a href="https://www.enigmail.net/documentation/index.php">Enigmail's</a> official documentation and mailing lists. Many GNU/Linux distribution's Web sites also contain a page explaining some of GnuPG's advanced features.</p>
+
+			</div><!-- End .section-intro -->
+
+
+		</div>
+	</section><!-- End #section5 -->
+
+
+
+	<!-- ~~~~~~~~~ Section 6: Next steps  ~~~~~~~~~ -->
+	<section class="row" id="section6">
+		<div>
+			<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
+			<div class="section-intro" style="border: none; padding-bottom: 0px; margin-bottom: 0px;">
+				<h2><em>#6</em> Follow up</h2>
+				<p>Make sure everyone has shared email addresses and public key fingerprints before they leave. Encourage the participants to continue to gain GnuPG experience by emailing each other. Send them each an encrypted email one week after the event, reminding them to try adding their public key ID to places where they publicly list their email address.</p>
+				<p>If you have any suggestions for improving this workshop guide, please let us know at <a href="mailto:campaigns@fsf.org">campaigns@fsf.org</a>.</p>
+
+			</div><!-- End .section-intro -->
+
+
+		</div>
+	</section><!-- End #section6 -->
+
+	<!-- ~~~~~~~~~ FAQ  ~~~~~~~~~ -->
+	<!-- When un-commenting this section go to main.css and search
+	for /* Guide Sections Background */ then add #faq to the desired color
+
+	<section class="row" id="faq">
+	<div>
+	<div class="sidebar">
+	<h2>FAQ</h2>
+</div>
+
+<div class="main">
+<dl>
+<dt>My key expired</dt>
+<dd>Answer coming soon.</dd>
+
+<dt>Who can read encrypted messages? Who can read signed ones?</dt>
+<dd>Answer coming soon.</dd>
+
+<dt>My email program is opening at times I don't want it to open/is now my default program and I don't want it to be.</dt>
+<dd>Answer coming soon.</dd>
+</dl>
+</div>
+</div>
+</section> --><!-- End #faq -->
+
+<!-- ~~~~~~~~~ Footer  ~~~~~~~~~ -->
+		<footer class="row" id="footer">
+			<div>
+				<div id="copyright">
+					<h4><a href="https://u.fsf.org/ys"><img alt="Free Software Foundation" src="//static.fsf.org/nosvn/enc-dev0/img/fsf-logo.png" /></a></h4>
+					<p>Copyright &copy; 2014-2016 <a href="https://u.fsf.org/ys">Free Software Foundation</a>, Inc. <a href="https://my.fsf.org/donate/privacypolicy.html">Privacy Policy</a>. Please support our work by <a href="https://u.fsf.org/yr">joining us as an associate member.</a></p>
+
+<p>The images on this page are under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 license (or later version)</a>, and the rest of it is under a <a href="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 license (or later version)</a>. Download the <a href="http://agpl.fsf.org/emailselfdefense.fsf.org/edward/CURRENT/edward.tar.gz">source code of Edward reply bot</a> by Andrew Engelbrecht &lt;sudoman@ninthfloor.org&gt; and Josh Drake &lt;zamnedix@gnu.org&gt;, available under the GNU Affero General Public License. <a href="http://www.gnu.org/licenses/license-list.html#OtherLicenses">Why these licenses?</a></p>
+
+<p>Fonts used in the guide &amp; infographic: <a href="https://www.google.com/fonts/specimen/Dosis">Dosis</a> by Pablo Impallari, <a href="http://www.google.com/fonts/specimen/Signika">Signika</a> by Anna Giedry&#347;, <a href="http://www.google.com/fonts/specimen/Archivo+Narrow">Archivo Narrow</a> by Omnibus-Type, <a href="https://libreplanet.org/wiki/GPG_guide/Graphics_Howto#Pitfalls">PXL-2000</a> by Florian Cramer.</p>
+
+<p>Download the <a href="emailselfdefense_source.zip">source package</a> for this guide, including fonts, image source files and the text of Edward's messages.</p>
+
+<p>This site uses the Weblabels standard for labeling <a href="https://www.fsf.org/campaigns/freejs">free JavaScript</a>. View the JavaScript <a href="//weblabels.fsf.org/emailselfdefense.fsf.org/" rel="jslicense">source code and license information</a>.</p>
+				</div><!-- /#copyright -->
+				<p class="credits">
+					Infographic and guide design by <a rel="external" href="http://jplusplus.org"><strong>Journalism++</strong> <img src="//static.fsf.org/nosvn/enc-dev0/img/jplusplus.png" alt="Journalism++" /></a>
+				</p><!-- /.credits -->
+			</div>
+		</footer><!-- End #footer -->
+
+<script src="//static.fsf.org/nosvn/enc-dev0/js/jquery-1.11.0.min.js"></script>
+<script src="//static.fsf.org/nosvn/enc-dev0/js/scripts.js"></script>
+
+<!-- Piwik -->
+<script type="text/javascript" >
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.fsf.org/" : "http://piwik.fsf.org/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+try {
+	var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 13);
+	piwikTracker.trackPageView();
+	piwikTracker.enableLinkTracking();
+} catch( err ) {}
+// @license-end
+</script><noscript><p><img src="//piwik.fsf.org/piwik.php?idsite=13" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>
