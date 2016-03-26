@@ -568,14 +568,19 @@
 					<div>
 						<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
 						<div class="section-intro">
-							<h2><em>#4</em> Learn the Web of Trust</h2>
-							<p>Email encryption is a powerful technology, but it has a weakness; it requires a way to verify that a person's public key is actually theirs. Otherwise, there would be no way to stop an attacker from making an email address with your friend's name, creating keys to go with it and impersonating your friend. That's why the free software programmers that developed email encryption created keysigning and the Web of Trust.</p>
+							<h2><em>#4</em> Síť důvěry</h2>
+							<!-- <h2><em>#4</em> Learn the Web of Trust</h2> -->
+							<p>Šifrování emailu je silná technologie, ale má slabou stránku; vyžaduje způsob jak ověřit, že veřejný klíč je skutečně od té pravé osoby. Jinak by nebylo možné zabránit, aby útočník vydávajícího se za vašeho přítele vytvořil emailovou adresu a klíče pod jeho jménem. Z tohoto důvodu programátoři, kteří vytvořili emailové šifrování rovněž  vytvořili podpisování klíču a Síť důvěry. </p>
+							<!-- <p>Email encryption is a powerful technology, but it has a weakness; it requires a way to verify that a person's public key is actually theirs. Otherwise, there would be no way to stop an attacker from making an email address with your friend's name, creating keys to go with it and impersonating your friend. That's why the free software programmers that developed email encryption created keysigning and the Web of Trust.</p> -->
 
-							<p>When you sign someone's key, you are publicly saying that you've verified that it belongs to them and not someone else.</p>
+							<p>Když podepíšete něčí klíč, veřejně oznamujete, že jste ověřili, že skutečně patří této osobě a ne nikomu jinému.  </p>
+							<!-- <p>When you sign someone's key, you are publicly saying that you've verified that it belongs to them and not someone else.</p> -->
 
-							<p>Signing keys and signing messages use the same type of mathematical operation, but they carry very different implications. It's a good practice to generally sign your email, but if you casually sign people's keys, you may accidently end up vouching for the identity of an imposter.</p>
+							<p>Podpisování klíčů a podpisování zpráv používá stejnou matematickou operaci, ale každý z těchto podpisů má jiné důsledky. Je v pořádku podepsat každý váš email, ale pokud podepíšete klíč jiné osoby, aniž byste ověřili její identitu, můžete se omylem zaručit za podvodníka. </p>
+							<!-- <p>Signing keys and signing messages use the same type of mathematical operation, but they carry very different implications. It's a good practice to generally sign your email, but if you casually sign people's keys, you may accidently end up vouching for the identity of an imposter.</p> -->
 
-							<p>People who use your public key can see who has signed it. Once you've used GnuPG for a long time, your key may have hundreds of signatures. You can consider a key to be more trustworthy if it has many signatures from people that you trust. The Web of Trust is a constellation of GnuPG users, connected to each other by chains of trust expressed through signatures.</p>
+							<p>Lidé, kteří používají veřejné klíče mohou vidět, kdo je podepsal. Až budete používat GnuPG dlouhou dobu, váš klíč může mít stovky podpisů. Klíč se stává důvěryhodnější, pokud má mnoho podpisů od lidí, které znáte. Síť důvěry je uskupení uživatelů GnuPG, spojených dohromady pomocí řetězce důvěry, kterou vyjádřili pomocí svých podpisů. </p>
+							<!-- <p>People who use your public key can see who has signed it. Once you've used GnuPG for a long time, your key may have hundreds of signatures. You can consider a key to be more trustworthy if it has many signatures from people that you trust. The Web of Trust is a constellation of GnuPG users, connected to each other by chains of trust expressed through signatures.</p> -->
 
 						</div><!-- End .section-intro -->
 
@@ -585,12 +590,18 @@
 								<p><img src="//static.fsf.org/nosvn/enc-dev0/img/en/screenshots/section4-web-of-trust.png" alt="Section 4: Web of Trust" /></p>
 							</div><!-- /.sidebar -->
 							<div class="main">
-								<h3><em>Step 4.a</em> Sign a key</h3>
-								<p>In your email program's menu, go to Enigmail &rarr; Key Management.</p>
-								<p>Right click on Edward's public key and select Sign Key from the context menu.</p>
-								<p>In the window that pops up, select "I will not answer" and click ok.</p>
-								<p>Now you should be back at the Key Management menu. Select Keyserver &rarr; Upload Public Keys and hit ok.</p>
-								<p class="notes">You've just effectively said "I trust that Edward's public key actually belongs to Edward." This doesn't mean much because Edward isn't a real person, but it's good practice.</p>
+								<h3><em>Krok 4.a</em> Podepište klíč</h3>
+								<!-- <h3><em>Step 4.a</em> Sign a key</h3> -->
+								<p>Ve menu vašeho emailového programu jděte na Enigmail &rarr; Správa klíčů.</p>
+								<p>Klikněte pravým tlačítkem na Edvardův veřejný klíč a vyberte Podepsat Klíč z nabídky.</p>
+								<p>V okně které se objeví zvolte "Neodpovím" a klikněte na ok.</p>
+								<p>Nyní byste měli být zpět na menu Správa klíčů. Zvolte Keyserver &rarr; Nahrát klíč a klikněte na ok.</p>
+								<p class="notes">Nyní jste zveřejnili "Důvěřuju, že Edvardův veřejný klíč skutečně patří Edvardovi." Edvard není skutečná osoba, a proto to moc neznamená, ale je správné podepsat klíče ostatních lidí, které znáte. </p>
+								<!-- <p>In your email program's menu, go to Enigmail &rarr; Key Management.</p> -->
+								<!-- <p>Right click on Edward's public key and select Sign Key from the context menu.</p> -->
+								<!-- <p>In the window that pops up, select "I will not answer" and click ok.</p> -->
+								<!-- <p>Now you should be back at the Key Management menu. Select Keyserver &rarr; Upload Public Keys and hit ok.</p> -->
+								<!-- <p class="notes">You've just effectively said "I trust that Edward's public key actually belongs to Edward." This doesn't mean much because Edward isn't a real person, but it's good practice.</p> -->
 
 
 								<!--<div id="pgp-pathfinder">
@@ -607,10 +618,13 @@
 				<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 				<div id="step-identify_keys" class="step">
 					<div class="main">
-						<h3>Identifying keys: Fingerprints and IDs</h3>
-						<p>People's public keys are usually identified by their key fingerprint, which is a string of digits like F357AA1A5B1FA42CFD9FE52A9FF2194CC09A61E8 (for Edward's key). You can see the fingerprint for your public key, and other public keys saved on your computer, by going to Enigmail &rarr; Key Management in your email program's menu, then right clicking on the key and choosing Key Properties. It's good practice to share your fingerprint wherever you share your email address, so that people can double-check that they have the correct public key when they download yours from a keyserver.</p>
+						<h3>Identifikace klíčů: Otisk a ID</h3>
+						<!-- <h3>Identifying keys: Fingerprints and IDs</h3> -->
+						<p>Veřejné klíče ostatních jsou běžně identifikovatelné pomocí jejich otisku, což je řetězec znaků jako F357AA1A5B1FA42CFD9FE52A9FF2194CC09A61E8 (pro Edvardův klíč). Otisk svého klíče můžete zjistit v nabídce Enigmail &rarr; Správa klíčů ve vašem emailovém programu, poté klikněte pravým tlačítkem a zvolte Vlastnosti klíče. Je správné předat váš otisk vždy, když někomu dáváte vaši adresu, takže lidé mohou důkladně ověřit, že si z keyserveru stáhli váš správný veřejný klíč.</p>
+						<!-- <p>People's public keys are usually identified by their key fingerprint, which is a string of digits like F357AA1A5B1FA42CFD9FE52A9FF2194CC09A61E8 (for Edward's key). You can see the fingerprint for your public key, and other public keys saved on your computer, by going to Enigmail &rarr; Key Management in your email program's menu, then right clicking on the key and choosing Key Properties. It's good practice to share your fingerprint wherever you share your email address, so that people can double-check that they have the correct public key when they download yours from a keyserver.</p> -->
 
-						<p class="notes">You may also see public keys referred to by their key ID, which is simply the last eight digits of the fingerprint, like C09A61E8 for Edward. The key ID is visible directly from the Key Management window. This key ID is like a person's first name (it is a useful shorthand but may not be unique to a given key), whereas the fingerprint actually identifies the key uniquely without the possibility of confusion. If you only have the key ID, you can still look up the key (as well as its fingerprint), like you did in Step 3, but if multiple options appear, you'll need the fingerprint of the person to whom you are trying to communicate to verify which one to use.</p>
+						<p class="notes">Také je možné se setkat s odkazy na veřejný klíč pomocí ID klíče, což je jednoduše posledních osm čísel podpisu, jako například C09A61E8 pro Edvarda. ID klíče je vidět přímo v okně Správy klíčů. Toto ID klíče se dá přirovnat ke jménu osoby (což je užitečná zkratka, ale nemusí být vždy jedinečná), zatímco otisk skutečně určuje daný klíč jedinečně bez nebezpečí záměny. Pokud máte jen ID, můžete si klíč vyhledat (stejně jako jeho otisk), jako jste provedli v <a href="#section3">Kroku 3</a>, ale obdržíte-li více výsledků vyhledávání je potřeba, aby vám osoba, se kterou se snažíte spojit, poskytla svůj otisk, ze kterého určíte, který klíč použít.  </p>
+						<!-- <p class="notes">You may also see public keys referred to by their key ID, which is simply the last eight digits of the fingerprint, like C09A61E8 for Edward. The key ID is visible directly from the Key Management window. This key ID is like a person's first name (it is a useful shorthand but may not be unique to a given key), whereas the fingerprint actually identifies the key uniquely without the possibility of confusion. If you only have the key ID, you can still look up the key (as well as its fingerprint), like you did in Step 3, but if multiple options appear, you'll need the fingerprint of the person to whom you are trying to communicate to verify which one to use.</p> -->
 
 					</div><!-- End .main -->
 				</div><!-- End #step-sign_real_keys .step-->
@@ -618,18 +632,26 @@
 				<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 				<div id="check-ids-before-signing" class="step">
 					<div class="main">
-						<h3><em>Important:</em> What to consider when signing keys</h3>
-						<p>Before signing a person's key, you need to be confident that it actually belongs to them, and that they are who they say they are. Ideally, this confidence comes from having interactions and conversations with them over time, and witnessing interactions between them and others. Whenever signing a key, ask to see the full public key fingerprint, and not just the shorter key ID. If you feel it's important to sign the key of someone you've just met, also ask them to show you their government identification, and make sure the name on the ID matches the name on the public key. In Enigmail, answer honestly in the window that pops up and asks "How carefully have you verified that the key you are about to sign actually belongs to the person(s) named above?"
+						<h3><em>Důležité:</em> Co mít na vědomí při podpisování klíčů</h3>
+						<!-- <h3><em>Important:</em> What to consider when signing keys</h3> -->
+						<p>Předtím, než podepíšete něčí klíč, musíte být přesvědčeni, že tento klíč skutečně patří této osobě a že je tato osoba tou, za kterou se vydává. V ideálním případě toto přesvědčení pramení z toho, že jste si s touto osobou nějakou dobu komunikovali a že jste byli svědky její interakce s ostatními. Kdykoli podepisujete klíč, zeptejte se jestli můžete vidět celý otisk jejího veřejného klíče, a ne pouze krátké ID. Pokud si myslíte, že je třeba podepsat klíč od někoho, koho jste právě potkali, zeptejte se také, jestli můžete vidět jejich úřední dokument, a ověřte, že se jméno na tomto dokumentu, shoduje, s tím na veřejném klíči. V Enigmail, odpovězte upřímně na otázkou "Jak důkladně jste ověřili, že klíč, který podepisujete skutečně patří osobě, pod jejímž je jménem?" v okně které se objeví.
 </p>
+<!-- 						<p>Before signing a person's key, you need to be confident that it actually belongs to them, and that they are who they say they are. Ideally, this confidence comes from having interactions and conversations with them over time, and witnessing interactions between them and others. Whenever signing a key, ask to see the full public key fingerprint, and not just the shorter key ID. If you feel it's important to sign the key of someone you've just met, also ask them to show you their government identification, and make sure the name on the ID matches the name on the public key. In Enigmail, answer honestly in the window that pops up and asks "How carefully have you verified that the key you are about to sign actually belongs to the person(s) named above?" -->
+<!-- </p> -->
 
 						<!-- ~~~~~~~~~ Troubleshooting  ~~~~~~~~~ -->
 						<div class="troubleshooting">
-							<h4>Advanced</h4>
+							<h4>Pro pokročilé</h4>
+							<!-- <h4>Advanced</h4> -->
 							<dl>
-								<dt>Master the Web of Trust</dt>
-								<dd>Unfortunately, trust does not spread between users the way <a href="http://fennetic.net/irc/finney.org/~hal/web_of_trust.html">many people think</a>. One of best ways to strengthen the GnuPG community is to deeply <a href="https://www.gnupg.org/gph/en/manual/x334.html">understand</a> the Web of Trust and to carefully sign as many people's keys as circumstances permit.</dd>
-								<dt>Set ownertrust</dt>
-								<dd>If you trust someone enough to validate other people's keys, you can assign them an ownertrust level through Enigmails's key management window. Right click on the other person's key, go to the "Select Owner Trust" menu option, select the trustlevel and click OK. Only do this once you feel you have a deep understanding of the Web of Trust.</dd>
+								<dt>Porozuměte the síťi důvěry</dt>
+								<dd>Bohužel, síť důvěry se nerozšířila mezi uživateli způsobem <a href="http://fennetic.net/irc/finney.org/~hal/web_of_trust.html">jak si mnozí mysleli</a>. Jedna z nejlepších cest jak posílit komunitu GnuPG je dobře <a href="https://www.gnupg.org/gph/en/manual/x334.html">pochopit</a> síť důvěry a precizně podepsat klíče od tolika lidí, od kolika je to možné. </dd>
+								<dt>Nastavte důvěryhodnost majitele  </dt>
+								<dd>Pokud někomu důvěřujete, že je schopný ověřovat klíče dalších lidí, můžete pro jeho klíč nastavit míru důvěrohodnosti majitele přes Správu klíčů v okně Enigmail.  Klikněte pravým tlačítkem na klíč této osoby a v menu jděte na položku Vybrat důvěryhodnost majitele, poté nastavte míru důvěryhodnosti a klikněte na ok. Tento úkon provádějte pouze pokud dobře rozumíte síti důvěry.  </dd>
+								<!-- <dt>Master the Web of Trust</dt> -->
+								<!-- <dd>Unfortunately, trust does not spread between users the way <a href="http://fennetic.net/irc/finney.org/~hal/web_of_trust.html">many people think</a>. One of best ways to strengthen the GnuPG community is to deeply <a href="https://www.gnupg.org/gph/en/manual/x334.html">understand</a> the Web of Trust and to carefully sign as many people's keys as circumstances permit.</dd> -->
+								<!-- <dt>Set ownertrust</dt> -->
+								<!-- <dd>If you trust someone enough to validate other people's keys, you can assign them an ownertrust level through Enigmails's key management window. Right click on the other person's key, go to the "Select Owner Trust" menu option, select the trustlevel and click OK. Only do this once you feel you have a deep understanding of the Web of Trust.</dd> -->
 							</dl>
 						</div><!-- /.troubleshooting -->
 					</div><!-- End .main -->
