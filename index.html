@@ -397,8 +397,10 @@
 				<div>
 					<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
 					<div class="section-intro">
-						<h2><em>#3</em> Try it out!</h2>
-						<p>Now you'll try a test correspondence with a computer program named Edward, who knows how to use encryption. Except where noted, these are the same steps you'd follow when corresponding with a real, live person.</p>
+						<h2><em>#3</em> Vyzkoušejte to!</h2>
+						<!-- <h2><em>#3</em> Try it out!</h2> -->
+						<p>Nyní můžete vyskoušet korespondenci s počítačovým programem Edwardem, který ví, jak používat šifrování. Pokud není řečeno jinak, je tento postup stejný, jakokdyby jste si dopisovali se skutečnou osobou. </p>
+						<!-- <p>Now you'll try a test correspondence with a computer program named Edward, who knows how to use encryption. Except where noted, these are the same steps you'd follow when corresponding with a real, live person.</p> -->
 
 						<!-- <p>NOTE: Edward is currently having some technical difficulties, so he may take a long time to respond, or not respond at all. We're sorry about this and we're working hard to fix it. Your key will still work even without testing with Edward.</p> -->
 					</div><!-- End .section-intro -->
@@ -409,48 +411,68 @@
 							<p><img src="//static.fsf.org/nosvn/enc-dev0/img/en/screenshots/section3-try-it-out.png" alt="Try it out." /></p>
 						</div><!-- /.sidebar -->
 						<div class="main">
-							<h3><em>Step 3.a</em> Send Edward your public key</h3>
-							<p>This is a special step that you won't have to do when corresponding with real people. In your email program's menu, go to Enigmail &rarr; Key Management. You should see your key in the list that pops up. Right click on your key and select Send Public Keys by Email. This will create a new draft message, as if you had just hit the Write button.</p>
+							<h3><em>Krok 3.a</em> Pošlete Edvardovi váš veřejný klíč</h3>
+							<!-- <h3><em>Step 3.a</em> Send Edward your public key</h3> -->
+							<p>Tento krok nebudete potřebovat při dopisování se skutečnou osobou. V menu svého emailovém programu, jděte do Enigmail  &rarr; Správa klíčů. Mělibyste vidět váš klíč v listě který se objeví. Klikněte pravým tlačítkem na váš klíč a vyberte Poslat veřejný klíč emailem. Toto otevře novou zprávu, jakobyste klikli na tlačítko napsat zprávu.  </p>
+							<!-- <p>This is a special step that you won't have to do when corresponding with real people. In your email program's menu, go to Enigmail &rarr; Key Management. You should see your key in the list that pops up. Right click on your key and select Send Public Keys by Email. This will create a new draft message, as if you had just hit the Write button.</p> -->
 
-							<p>Address the message to <a href="mailto:edward-en@fsf.org">edward-en@fsf.org</a>. Put at least one word (whatever you want) in the subject and body of the email. Don't send yet.</p>
+							<p>Adresujte zprávu na <a href="mailto:edward-en@fsf.org">edward-en@fsf.org</a>. Napište alespoň jedno slovo do předmětu zprávy a samotného emailu (může to být cokoli). Zatím neodesílejte. </p>
+							<!-- <p>Address the message to <a href="mailto:edward-en@fsf.org">edward-en@fsf.org</a>. Put at least one word (whatever you want) in the subject and body of the email. Don't send yet.</p> -->
 
-							<p>The lock icon in the top left should be yellow, meaning encryption is
-								turned on. We want this first special message to be unencrypted, so
-								click the icon once to turn it off. The lock should become grey, with a
-								blue dot on it (to alert you that the setting has been changed from the
-								default). Once encryption is off, hit Send.</p>
+							<p>Ikona zámku na vlevo nahoře by měla být zvýrazněna žlutě, což znamená, že šifrování je zapnuto. Tato první zpráva by měla být nezašifrovaná, což zařídíte tak, že jednou kliknete na ikonu, což šifrování vypne. Ikona zámku se  zároveň vybarví šedě s modrou tečkou (čímž vás upozorňuje, že toto nastavení bylo změněno oproti základnímu nastavení). Pokud je šifrování vypnuto, zprávu odešlete. </p>
+							<!-- <p>The lock icon in the top left should be yellow, meaning encryption is -->
+							<!-- 	turned on. We want this first special message to be unencrypted, so -->
+							<!-- 	click the icon once to turn it off. The lock should become grey, with a -->
+							<!-- 	blue dot on it (to alert you that the setting has been changed from the -->
+							<!-- 	default). Once encryption is off, hit Send.</p> -->
 
-								<p class="notes">It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href="#section5">Use it Well</a> section of this guide. Once he's responded, head to the next step. From here on, you'll be doing just the same thing as when corresponding with a real person.</p>
+								<p class="notes">Edvardovi to může trvat dvě až tři minuty, než vám odepíše. Zatím, si můžete přečíst sekci <a href="#section5"> o správném použití</a> v této příručce. Až Edvard odepíše, pokračujte na další krok. Další kroky jsou stejné při dopisování si se skutečnou osobou. </p>
+								<!-- <p class="notes">It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href="#section5">Use it Well</a> section of this guide. Once he's responded, head to the next step. From here on, you'll be doing just the same thing as when corresponding with a real person.</p> -->
 
-								<p>When you open Edward's reply, GnuPG may prompt you for your password before using your private key to decrypt it.</p>
+								<p>Když otevřete Edvardovu odpověď, GnuPG se zeptá na heslo před použitím vašeho soukromého klíče pro dešifrování. </p>
+								<!-- <p>When you open Edward's reply, GnuPG may prompt you for your password before using your private key to decrypt it.</p> -->
 							</div><!-- End .main -->
 						</div><!-- End #step-3a .step -->
 
 						<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 						<div id="step-3b" class="step">
 							<div class="main">
-								<h3><em>Step 3.b</em> Send a test encrypted email</h3>
-								<p>Write a new email in your email program, addressed to <a href="mailto:edward-en@fsf.org">edward-en@fsf.org</a>. Make the subject "Encryption test" or something similar and write something in the body.</p>
-								<p>The lock icon in the top left of the window should be yellow, meaning encryption is on. This will be your default from now on.</p>
-								<p class="notes">Next to the lock, you'll notice an icon of a pencil. We'll get to this in a moment.</p>
-								<p>Click Send. Enigmail will pop up a window that says "Recipients not valid, not trusted or not found."</p>
+								<h3><em>Krok 3.b</em> Pošlete testovací šifrovaný email</h3>
+								<!-- <h3><em>Step 3.b</em> Send a test encrypted email</h3> -->
+								<p>Napište email ve vašem emailovém programu, adresovaný <a href="mailto:edward-en@fsf.org">edward-en@fsf.org</a>. Do předmětu emailu napište "Zkouška šifrování" nebo něco podobného a napište něco do obsahu emailu.</p>
+								<!-- <p>Write a new email in your email program, addressed to <a href="mailto:edward-en@fsf.org">edward-en@fsf.org</a>. Make the subject "Encryption test" or something similar and write something in the body.</p> -->
+								<p>Ikona zámku vlevo nahoře v okně by měla být žlutá, což znamená, že šifrování je zapnuté. Toto bude od nynejška základní nastavení.  </p>
+								<!-- <p>The lock icon in the top left of the window should be yellow, meaning encryption is on. This will be your default from now on.</p> -->
+								<p class="notes">Vedle zámku můžete vidět ikonu pera. O této funkci se více dozvíte za chvíli.</p> 
+								<!-- <p class="notes">Next to the lock, you'll notice an icon of a pencil. We'll get to this in a moment.</p>  -->
+								<p>Klikněte na Odeslat. Enigmail otevře okno s nápisem "Příjemci nejsou ověřeni, důvěřování nebo nalezeni." </p>
+								<!-- <p>Click Send. Enigmail will pop up a window that says "Recipients not valid, not trusted or not found."</p> -->
 
-								<p>To encrypt an email to Edward, you need his public key, so now you'll have Enigmail download it from a keyserver. Click Download Missing Keys and use the default in the pop-up that asks you to choose a keyserver. Once it finds keys, check the first one (Key ID starting with C), then select ok. Select ok in the next pop-up.</p>
+								<p>Abyste zašifrovali email pro Edvarda, budete potřebovat jeho veřejný klíč, takže můžete Enigmail nechat jeho klíč stáhnout z keyserveru. Klikněte na Stáhnout chybějící klíče a použijte základní nastavení v okně, které se objeví a zeptá na vaši volbu keyserveru. Poté co budou klíče nalezeny, zaškrkněte první z nich (ID klíče začíná písmenem C), a poté zvolte OK. Zvolte OK také v dalším okně, které se objeví.</p>
+								<!-- <p>To encrypt an email to Edward, you need his public key, so now you'll have Enigmail download it from a keyserver. Click Download Missing Keys and use the default in the pop-up that asks you to choose a keyserver. Once it finds keys, check the first one (Key ID starting with C), then select ok. Select ok in the next pop-up.</p> -->
 
-								<p>Now you are back at the "Recipients not valid, not trusted or not found" screen. Check the box in front of Edward's key and click Send.</p>
+								<p>Nyní jste zpět na obrazovce "Příjemci nejsou nejsou ověřeni, důvěřování nebo nalezeni". Vyberte pole před Edvardovým klíčem a klikněte na Odeslat.</p>
+								<!-- <p>Now you are back at the "Recipients not valid, not trusted or not found" screen. Check the box in front of Edward's key and click Send.</p> -->
 
-								<p class="notes">Since you encrypted this email with Edward's public key, Edward's private key is required to decrypt it. Edward is the only one with his private key, so no one except him can decrypt it.</p>
+								<p class="notes">Protože jste zašifrovali tento email s Edvardovým veřejným klíčem, pro dešifrování je potřeba Edvardova soukromého klíče. Edvard je jediný, kdo má tento soukromý klíč, takže kromě něj nemůže nikdo další zprávu dešifrovat. </p>
+								<!-- <p class="notes">Since you encrypted this email with Edward's public key, Edward's private key is required to decrypt it. Edward is the only one with his private key, so no one except him can decrypt it.</p> -->
 								<!-- ~~~~~~~~~ Troubleshooting  ~~~~~~~~~ -->
 								<div class="troubleshooting">
 								  <h4>řEšENí PROBLéMů</h4>
 								  <!-- <h4>Troubleshooting</h4> -->
 									<dl>
-										<dt>Enigmail can't find Edward's key</dt>
-										<dd>Close the pop-ups that have appeared since you clicked Send. Make sure you are connected to the Internet and try again. If that doesn't work, repeat the process, choosing a different keyserver when it asks you to pick one.</dd>
-										<dt>Unscrambled messages in the Sent folder</dt>
-										<dd>Even though you can't decrypt messages encrypted to someone else's key, your email program will automatically save a copy encrypted to your public key, which you'll be able to view from the Sent folder like a normal email. This is normal, and it doesn't mean that your email was not sent encrypted.</dd>
-										<dt>More resources</dt>
-										<dd>If you're still having trouble with our instructions or just want to learn more, check out <a href="https://enigmail.wiki/Signature_and_Encryption#Encrypting_a_message">Enigmail's wiki</a>.</dd>
+										<dt>Enigmail nemůže nalézt Edvardův klíč</dt>
+										<!-- <dt>Enigmail can't find Edward's key</dt> -->
+										<dd>Zavřete okna, která se objevily poté co jste klikli na Odeslat. Zkontrolujte, že jste připojeni na internet a zkuste to znova. Pokud to stále nefunguje, zopakujte celý postup a až budete vyzvání k výběru keyserveru, vyberte jiný než minule.</dd>
+										<!-- <dd>Close the pop-ups that have appeared since you clicked Send. Make sure you are connected to the Internet and try again. If that doesn't work, repeat the process, choosing a different keyserver when it asks you to pick one.</dd> -->
+										<dt>Nezašifrované zprávy ve složce Odeslané</dt>
+										<!-- <dt>Unscrambled messages in the Sent folder</dt> -->
+										<dd>I když nemůžete dešifrovat zprávy zašifrované klíčem  někoho jiného, váš emailový program automaticky uloží kopiji zašifrovanou vašim veřejným klíčem, kterou budete moci otevřít ve složce Odeslané jako běžný email. Toto je normální a neznamená to, že vaše zpráva nebyla odeslaná nezašifrovaně. </dd>
+										<!-- <dd>Even though you can't decrypt messages encrypted to someone else's key, your email program will automatically save a copy encrypted to your public key, which you'll be able to view from the Sent folder like a normal email. This is normal, and it doesn't mean that your email was not sent encrypted.</dd> -->
+										<dt>Více informací</dt>
+										<!-- <dt>More resources</dt> -->
+										<dd>Pokud máte další nejasnosti s našimi instrukcemi, nebo se chcete dozvědět více navštivte <a href="https://enigmail.wiki/Signature_and_Encryption#Encrypting_a_message">Enigmail's wiki</a>.</dd>
+										<!-- <dd>If you're still having trouble with our instructions or just want to learn more, check out <a href="https://enigmail.wiki/Signature_and_Encryption#Encrypting_a_message">Enigmail's wiki</a>.</dd> -->
 								<dt class="feedback">Nenašli jste řešení vašeho problému?</dt>
 								<dd class="feedback">Dejte nám vědět na <a href="https://libreplanet.org/wiki/GPG_guide/Public_Review">stránce pro zpětnou vazbu</a>.</dd>
 										<!-- <dt class="feedback">Don't see a solution to your problem?</dt> -->
@@ -461,10 +483,13 @@
 
 								<!-- ~~~~~~~~~ Troubleshooting  ~~~~~~~~~ -->
 								<div class="troubleshooting">
-									<h4>Advanced</h4>
+									<h4>Pro pokročilé</h4>
+									<!-- <h4>Advanced</h4> -->
 									<dl>
-										<dt>Encrypt messages from the command line</dt>
-										<dd>You can also encrypt and decrypt messages and files from the <a href="https://www.gnupg.org/gph/en/manual/x110.html">command line</a>, if that's your preference. The option --armor makes the encrypted output appear in the regular character set.</dd>
+										<dt>Šifrování zpráv z příkazové řádky</dt>
+										<dd>Také můžete šifrovat zprávy z <a href="https://www.gnupg.org/gph/en/manual/x110.html">příkazové řádky</a>, pokud to upřednostňujete. Možnost --armor zaručí, že zpráva se objeví v standartní saďe znaků.</dd>
+										<!-- <dt>Encrypt messages from the command line</dt> -->
+										<!-- <dd>You can also encrypt and decrypt messages and files from the <a href="https://www.gnupg.org/gph/en/manual/x110.html">command line</a>, if that's your preference. The option --armor makes the encrypted output appear in the regular character set.</dd> -->
 									</dl>
 								</div><!-- /.troubleshooting -->
 
@@ -475,8 +500,10 @@
 						<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 						<div id="step-headers_unencrypted" class="step">
 							<div class="main">
-								<h3><em>Important:</em> Security tips</h3>
-								<p>Even if you encrypt your email, the subject line is not encrypted, so don't put private information there. The sending and receiving addresses aren't encrypted either, so a surveillance system can still figure out who you're communicating with. Also, surveillance agents will know that you're using GnuPG, even if they can't figure out what you're saying. When you send attachments, Enigmail will give you the choice to encrypt them or not, independent of the actual email.</p>
+								<h3><em>Důležité:</em> Bezpčnostní tipy</h3>
+								<!-- <h3><em>Important:</em> Security tips</h3> -->
+								<p>I přesto, že jste zašifrovali obsah vašeho emailu, jeho předmět zašifrovaný není, takže v předmětu nezmiňujte žádné citlivé informace. Rovněž adresy odesílatele a příjemců nejsou zašifrované, takže špehovací systémy mohou stále zjistit s kým komunikujete. Agentům špionážních služeb bude také zřejmé, že používáte GnuGP, i když obsah vašich zpráv nezjistí. </p>
+								<!-- <p>Even if you encrypt your email, the subject line is not encrypted, so don't put private information there. The sending and receiving addresses aren't encrypted either, so a surveillance system can still figure out who you're communicating with. Also, surveillance agents will know that you're using GnuPG, even if they can't figure out what you're saying. When you send attachments, Enigmail will give you the choice to encrypt them or not, independent of the actual email.</p> -->
 							</div><!-- End .main -->
 						</div><!-- End #step-headers_unencrypted .step-->
 
@@ -484,38 +511,52 @@
 						<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 						<div id="step-3c" class="step">
 							<div class="main">
-								<h3><em>Step 3.c</em> Receive a response</h3>
-								<p>When Edward receives your email, he will use his private key to decrypt it, then use your public key (which you sent him in <a href="#step-3a">Step 3.A</a>) to encrypt his reply to you.</p>
+								<h3><em>Step 3.c</em> Obdržte odpověď</h3>
+								<!-- <h3><em>Step 3.c</em> Receive a response</h3> -->
+								<p>Když Edvard dostane váš email, použije svůj soukromý klíč pro jeho dešifrování, poté použije váš veřejný klíč (který jste mu poslali v <a href="#step-3a">Kroku 3.A</a>), aby zašifroval svou odpověď pro vás.</p>
+								<!-- <p>When Edward receives your email, he will use his private key to decrypt it, then use your public key (which you sent him in <a href="#step-3a">Step 3.A</a>) to encrypt his reply to you.</p> -->
 
-								<p class="notes">It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href="#section5">Use it Well</a> section of this guide.</p>
-								<p>When you receive Edward's email and open it, Enigmail will automatically detect that it is encrypted with your public key, and then it will use your private key to decrypt it.</p>
-								<p>Notice the bar that Enigmail shows you above the message, with information about the status of Edward's key.</p>
+								<p class="notes">Edvardovi to může trvat pár minut, než vám odepíše. Během čekání na odpověď, si můžete přečíst sekci <a href="#section5">Správné použití</a> v této příručce.</p>
+								<!-- <p class="notes">It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href="#section5">Use it Well</a> section of this guide.</p> -->
+								<p>Když obdržíte Edvardův email a otevřete ho, Enigmail automaticky zjistí, že je šifrovaný vašim veřejným klíčem, a použije váš soukromý klíč aby ho dešifroval.</p>
+								<!-- <p>When you receive Edward's email and open it, Enigmail will automatically detect that it is encrypted with your public key, and then it will use your private key to decrypt it.</p> -->
+								<p>Všiměte si lišty s informacemi o stavu Edvardova klíče, kterou Enigmail zobrazí nad vaši zprávou. </p>
+								<!-- <p>Notice the bar that Enigmail shows you above the message, with information about the status of Edward's key.</p> -->
 							</div><!-- End .main -->
 						</div><!-- End #step-3c .step -->
 
 
 						<div id="step-3d" class="step">
 							<div class="main">
-								<h3><em>Step 3.d</em> Send a test signed email</h3>
-								<p>GnuPG includes a way for you to sign messages and files, verifying that they came from you and that they weren't tampered with along the way. These signatures are stronger than their pen-and-paper cousins -- they're impossible to forge, because they're impossible to create without your private key (another reason to keep your private key safe).</p>
+								<h3><em>Krok 3.d</em> Pošlete testovací podepsaný email</h3>
+								<!-- <h3><em>Step 3.d</em> Send a test signed email</h3> -->
+								<p>GnuPG umožňuje elektronické podepsání vaší zprávy a souborů, pro ověření, že přicházejí od vás a že s nimi nebylo manipulováno během přenosu. Elektronický podpis je spolehlivější než tradiční podpis perem na papíře -- je nemožné ho padělat, protože jej není možné vytvořit bez vašeho soukromého klíče (což je další důvod pro bezpečné uložení vašeho klíče). </p>
+								<!-- <p>GnuPG includes a way for you to sign messages and files, verifying that they came from you and that they weren't tampered with along the way. These signatures are stronger than their pen-and-paper cousins -- they're impossible to forge, because they're impossible to create without your private key (another reason to keep your private key safe).</p> -->
 
-								<p>You can sign messages to anyone, so it's a great way to make people aware that you use GnuPG and that they can communicate with you securely. If they don't have GnuPG, they will be able to read your message and see your signature. If they do have GnuPG, they'll also be able to verify that your signature is authentic.</p>
+								<p>Můžete podepsat zprávu pro kohokoli, což to je skvělý způsob, jak ostatním ukázat, že používáte GnuPG a že s vámi mohou komunikovat zabezpečeně. Pokud příjemce nemá GnuPG, může si přečíst vaše zprávy a uvidí váš podpis. Pokud GnuPG má, může rovněž ověřit pravost vašeho podpisu. </p>
+								<!-- <p>You can sign messages to anyone, so it's a great way to make people aware that you use GnuPG and that they can communicate with you securely. If they don't have GnuPG, they will be able to read your message and see your signature. If they do have GnuPG, they'll also be able to verify that your signature is authentic.</p> -->
 
-								<p>To sign an email to Edward, compose any message to him and click the pencil icon next to the lock icon so that it turns gold. If you sign a message, GnuPG may ask you for your password before it sends the message, because it needs to unlock your private key for signing.</p>
+								<p>Pro podepsání emailu Edvardovi, mu napište jakoukoli zprávu a klikněte na ikonu pera hned vedle ikony zámku, tak, aby se zbarvila do zlata. Pokud zprávu podepíšete, GnuPG se vás zeptá před jejím odesláním na vaše heslo, protože pro vytvoření podpisu je třeba odemknout váš soukromý klíč.</p>
+								<!-- <p>To sign an email to Edward, compose any message to him and click the pencil icon next to the lock icon so that it turns gold. If you sign a message, GnuPG may ask you for your password before it sends the message, because it needs to unlock your private key for signing.</p> -->
 
-								<p>With the lock and pencil icons, you can choose whether each message will be encrypted, signed, both, or neither.</p>
+								<p>S ikonami zámku a pera, můžete vybrat, jestli bude vaše zpráva zašifrovaná, podepsaná, obojí, nebo ani jedno. </p>
+								<!-- <p>With the lock and pencil icons, you can choose whether each message will be encrypted, signed, both, or neither.</p> -->
 							</div>
 						</div>
 
 						<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 						<div id="step-3e" class="step">
 							<div class="main">
-								<h3><em>Step 3.e</em> Receive a response</h3>
-								<p>When Edward receives your email, he will use your public key (which you sent him in <a href="#step-3a">Step 3.A</a>) to verify that your signature is authentic and the message you sent has not been tampered with.</p>
+								<h3><em>Krok 3.e</em> Obdržte odpověď</h3>
+								<!-- <h3><em>Step 3.e</em> Receive a response</h3> -->
+								<p>Když Edvard dostane vaši zprávu, použije váš veřejný klíč (jenž jste mu poslali v <a href="#step-3a">Kroku 3.A</a>), aby ověřil, že váš podpis je autentický a že s vaší zprávou nebylo manipulováno.</p>
+								<!-- <p>When Edward receives your email, he will use your public key (which you sent him in <a href="#step-3a">Step 3.A</a>) to verify that your signature is authentic and the message you sent has not been tampered with.</p> -->
 
-								<p class="notes">It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href="#section5">Use it Well</a> section of this guide.</p>
+								<p class="notes">Edvardovi to může trvat pár minut, než vám odepíše. Během čekání na odpověď, si můžete přečíst sekci <a href="#section5">Správné použití</a> v této příručce.</p>
+								<!-- <p class="notes">It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href="#section5">Use it Well</a> section of this guide.</p> -->
 
-								<p>Edward's reply will arrive encrypted, because he prefers to use encryption whenever possible. If everything goes according to plan, it should say "Your signature was verified." If your test signed email was also encrypted, he will mention that first.</p>
+								<p>Edvardovy odpovědi dojdou zašifrované, protože Edvard upřednostňuje šifrování kdy je to jen možné. Pokud jde vše podle plánu, měl by říct "Váš podpis byl ověřen." Pokud váš testovací email s podpisem byl rovněž podepsán, zmíní tuto informaci jako první. </p>
+								<!-- <p>Edward's reply will arrive encrypted, because he prefers to use encryption whenever possible. If everything goes according to plan, it should say "Your signature was verified." If your test signed email was also encrypted, he will mention that first.</p> -->
 							</div><!-- End .main -->
 						</div><!-- End #step-3c .step -->
 					</div>
