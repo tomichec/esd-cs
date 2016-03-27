@@ -668,7 +668,9 @@
 				<!-- ~~~~~~~~~ section introduction: interspersed text  ~~~~~~~~~ -->
 				<div class="section-intro">
 					<h2><em>#5</em> Use it well</h2>
-					<p>Everyone uses GnuPG a little differently, but it's important to follow some basic practices to keep your email secure. Not following them, you risk the privacy of the people you communicate with, as well as your own, and damage the Web of Trust.</p>
+					<!-- <h2><em>#5</em> Use it well</h2> -->
+					<p>Každý používá GnuPG trochu odlišně, ale je důležité se řídit několika základními pravidly pro zajištění bezpečnosti vaších emailů. Pokud se jimi neřídíte riskujete soukromí lidí, se kterými komunikujete, stejně jako vaše vlastní, a poškozujete Síť důvěry. </p>
+					<!-- <p>Everyone uses GnuPG a little differently, but it's important to follow some basic practices to keep your email secure. Not following them, you risk the privacy of the people you communicate with, as well as your own, and damage the Web of Trust.</p> -->
 				</div><!-- End .section-intro -->
 
 				<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
@@ -677,10 +679,13 @@
 						<p><img src="//static.fsf.org/nosvn/enc-dev0/img/en/screenshots/section5-01-use-it-well.png" alt="Section 5: Use it Well (1)" /></p>
 					</div><!-- /.sidebar -->
 					<div class="main">
-						<h3>When should I encrypt? When should I sign?</h3>
+						<h3>Kdy bych měl šifrovat? Kdy bych měl přidat podpis?</h3>
+						<!-- <h3>When should I encrypt? When should I sign?</h3> -->
 
-						<p>The more you can encrypt your messages, the better. If you only encrypt emails occasionally, each encrypted message could raise a red flag for surveillance systems. If all or most of your email is encrypted, people doing surveillance won't know where to start. That's not to say that only encrypting some of your email isn't helpful -- it's a great start and it makes bulk surveillance more difficult.</p>
-						<p>Unless you don't want to reveal your own identity (which requires other protective measures), there's no reason not to sign every message, whether or not you are encrypting. In addition to allowing those with GnuPG to verify that the message came from you, signing is a non-intrusive way to remind everyone that you use GnuPG and show support for secure communication. If you often send signed messages to people that aren't familiar with GnuPG, it's nice to also include a link to this guide in your standard email signature (the text kind, not the cryptographic kind).</p>
+						<p>Čím více zpráv budete šifrovat, tím lépe. Pokud budete šifrovat emaily pouze příležitostně, šifrované zprávy budou pro špionážní systémy podezřelé. Pokud budou šifrovány všechny vaše zprávy, lidé kteří vás chtějí špehovat  nebudou vědět, kde začít. To ale neznamená, že šifrování pouze některých zpráv není užitečné -- je to dobrý začátek, který znesnadňuje masové špehování. </p>
+						<!-- <p>The more you can encrypt your messages, the better. If you only encrypt emails occasionally, each encrypted message could raise a red flag for surveillance systems. If all or most of your email is encrypted, people doing surveillance won't know where to start. That's not to say that only encrypting some of your email isn't helpful -- it's a great start and it makes bulk surveillance more difficult.</p> -->
+						<p>Pokud nechcete odhalit svou identitu (což ale vyžaduje další ochrané metody), není důvod nepodepsat každou zprávu bez ohledu na to, jestli je šifrovaná nebo ne. Krom toho, že lidé, kteří mají GnuPG mohou ověřit, že vaše zpráva skutečně přichází od vás, podpisování zpráv je nevnucující se metoda, jak každému připomenout, že používáte GnuPG a jak můžete ukázat, že podporujete bezpečnou komunikaci. Pokud budete posílat podepsané zprávy lidem kteří, nejsou seznámeni s GnuPG bude, často, dobré pokud také zmíníte odkaz na tuto příručku ve vašem emailovém podpisu (tom textovém, ne elektronickém). </p>
+						<!-- <p>Unless you don't want to reveal your own identity (which requires other protective measures), there's no reason not to sign every message, whether or not you are encrypting. In addition to allowing those with GnuPG to verify that the message came from you, signing is a non-intrusive way to remind everyone that you use GnuPG and show support for secure communication. If you often send signed messages to people that aren't familiar with GnuPG, it's nice to also include a link to this guide in your standard email signature (the text kind, not the cryptographic kind).</p> -->
 
 					</div><!-- End .main -->
 				</div><!-- End #step-5a .step -->
@@ -691,27 +696,36 @@
 						<p><img src="//static.fsf.org/nosvn/enc-dev0/img/en/screenshots/section5-02-use-it-well.png" alt="Section 5: Use it Well (2)" /></p>
 					</div><!-- /.sidebar -->
 					<div class="main">
-						<h3>Be wary of invalid keys</h3>
-						<p>GnuPG makes email safer, but it's still important to watch out for invalid keys, which might have fallen into the wrong hands. Email encrypted with invalid keys might be readable by surveillance programs.</p>
-						<p>In your email program, go back to the first encrypted email that Edward sent you. Because Edward encrypted it with your public key, it will have a message from Enigmail at the top, which most likely says "Enigmail: Part of this message encrypted."</p>
-						<p><b>When using GnuPG, make a habit of glancing at that bar. The program will warn you there if you get an email encrypted with a key that can't be trusted.</b></p>
+						<h3>Buďte ostražití před neplatnými klíči</h3>
+						<!-- <h3>Be wary of invalid keys</h3> -->
+						<p>GnuPG dělá email bezpečnějším, ale je stále důležité, abyste byli na pozoru před neplatnými klíči, které mohly padnout do špatných rukou. Email zašifrovaný s neplatným klíčem může být čitelný pro špehovací programy.</p>
+						<p>Ve svém emailovém programu, najděte první šifrovaný email, který jste dostali of Edvarda. Protože Edvard zašifroval email vašim veřejným klíčem, na horní liště pravděpodobně můžete vidět zprávu od Enigmail, která říká "Enigmail: Část této zprávy je šifrovaná."</p>
+						<p><b>Když používáte GnuPG, zvykněte si vždy zběžně zkontrolovat tuto zprávu. Program vás bude varovat pokud dostanete zprávu zašifrovanou klíčem, kterému není možné důvěřovat.</b></p>
+						<!-- <p>GnuPG makes email safer, but it's still important to watch out for invalid keys, which might have fallen into the wrong hands. Email encrypted with invalid keys might be readable by surveillance programs.</p> -->
+						<!-- <p>In your email program, go back to the first encrypted email that Edward sent you. Because Edward encrypted it with your public key, it will have a message from Enigmail at the top, which most likely says "Enigmail: Part of this message encrypted."</p> -->
+						<!-- <p><b>When using GnuPG, make a habit of glancing at that bar. The program will warn you there if you get an email encrypted with a key that can't be trusted.</b></p> -->
 					</div><!-- End .main -->
 				</div><!-- End #step-5b .step -->
 
 				<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 				<div id="step-5c" class="step">
 					<div class="main">
-						<h3>Copy your revocation certificate to somewhere safe</h3>
-						<p>Remember when you created your keys and saved the revocation certificate that GnuPG made? It's time to copy that certificate onto the safest digital storage that you have -- the ideal thing is a flash drive, disk, or hard drive stored in a safe place in your home, not on a device you carry with you regularly.</p>
-						<p>If your private key ever gets lost or stolen, you'll need this certificate file to let people know that you are no longer using that keypair.</p>
+						<h3>Zálohujte váš revokační certifikát na bezpečné místo </h3>
+						<!-- <h3>Copy your revocation certificate to somewhere safe</h3> -->
+						<p>Vzpomeňte si, že když jste vytvořili vaše klíče, taky jste uložili revokační certifikát, který pro vás GnuPG vytvořil? Nyní přichází chvíle, kdy je třeba zkopírovat tento certifikát na co nejbezpečnější datové uložiště, které máte -- nejlepší je flash disk, disk, nebo pevný disk, který necháte uložený na bezpečném místě doma a nebudete ho s sebou běžně nosit.  </p>
+						<p>Pokud se váš soukromý klíč ztratí, nebo bude ukraden, budete potřebovat soubor s tímto certifikátem, aby ostatním dali navědomí, že už tento pár klíčů nepoužíváte.</p>
+						<!-- <p>Remember when you created your keys and saved the revocation certificate that GnuPG made? It's time to copy that certificate onto the safest digital storage that you have -- the ideal thing is a flash drive, disk, or hard drive stored in a safe place in your home, not on a device you carry with you regularly.</p> -->
+						<!-- <p>If your private key ever gets lost or stolen, you'll need this certificate file to let people know that you are no longer using that keypair.</p> -->
 					</div><!-- End .main -->
 				</div><!-- End #step-5c .step -->
 
 				<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 				<div id="step-lost_key" class="step">
 					<div class="main">
-						<h3><em>Important:</em> act swiftly if someone gets your private key</h3>
-						<p>If you lose your private key or someone else gets ahold of it (say, by stealing or cracking your computer), it's important to revoke it immediately before someone else uses it to read your encrypted email or forge your signature. This guide doesn't cover how to revoke a key, but you can follow these <a href="https://www.hackdiary.com/2004/01/18/revoking-a-gpg-key/">instructions</a>. After you're done revoking, make a new key and send an email to everyone with whom you usually use your key to make sure they know, including a copy of your new key.</p>
+						<h3><em>Důležité:</em> Jednejte rychle se někdo dostane k vašemu soukromému klíči</h3>
+						<!-- <h3><em>Important:</em> act swiftly if someone gets your private key</h3> -->
+						<p>Pokud ztratíte váš soukromý klíč, nebo se dostane do rukou někoho dalšího (řekněme, že ho ukrade nebo se nabourá do vašeho počítače), je potřeba co nejrychleji odvolat jeho platnost (revokovat). Tato příručka se nezabývá tím jak odvolat platnost klíče, ale můžete se řídit těmito <a href="https://www.hackdiary.com/2004/01/18/revoking-a-gpg-key/">instrukcemi</a>. Poté co jste klíč revokovali, vytvořte nový klíč a dejte vědět všem, s kým pravidelně používáte svůj klíč, že váš starý klíč je neplatný a rovněž přiložte váš nový klíč. </p>
+						<!-- <p>If you lose your private key or someone else gets ahold of it (say, by stealing or cracking your computer), it's important to revoke it immediately before someone else uses it to read your encrypted email or forge your signature. This guide doesn't cover how to revoke a key, but you can follow these <a href="https://www.hackdiary.com/2004/01/18/revoking-a-gpg-key/">instructions</a>. After you're done revoking, make a new key and send an email to everyone with whom you usually use your key to make sure they know, including a copy of your new key.</p> -->
 					</div><!-- End .main -->
 				</div><!-- End #step-lost_key .step-->
 
@@ -731,8 +745,10 @@
 		<!-- ~~~~~~~~~ a div for each step  ~~~~~~~~~ -->
 		<div id="webmail-and-GnuPG" class="step">
 			<div class="main">
-				<h3>Webmail and GnuPG</h3>
-				<p>When you use a web browser to access your email, you're using webmail, an email program stored on a distant website. Unlike webmail, your desktop email program runs on your own computer. Although webmail can't decrypt encrypted email, it will still display it in its encrypted form. If you primarily use webmail, you'll know to open your email client when you receive a scrambled email.</p>
+				<h3>Webmail a GnuPG</h3>
+				<!-- <h3>Webmail and GnuPG</h3> -->
+				<p>Pokud používáte webový prohlížeč pro přístup k vašemu emailu, používáte webmail, emailový program uložený na vzdálené stránce. Narozdíl od webmailu, váš emailový program běží na vašem vlastním počítači. I když webmail nemůže rozluštit šifrované zprávy, stále je zobrazí v jejich šifrované podobě. Pokud používáte primárně webmail, budete vědět, že musíte otevřít váš emailový program, když obdržíte zašifrovanou zprávu. </p>
+				<!-- <p>When you use a web browser to access your email, you're using webmail, an email program stored on a distant website. Unlike webmail, your desktop email program runs on your own computer. Although webmail can't decrypt encrypted email, it will still display it in its encrypted form. If you primarily use webmail, you'll know to open your email client when you receive a scrambled email.</p> -->
 			</div><!-- End .main -->
 		</div><!-- End #webmail-and-GnuPG .step-->
 
@@ -754,7 +770,8 @@
 <section class="row" id="section6">
 	<div id="step-click_here" class="step">
 		<div class="main">
-			<h2><a href="next_steps.html">Great job! Check out the next steps.</a></h2>
+			<h2><a href="next_steps.html">Dobrá práce! Podívejte se na další kroky.</a></h2>
+			<!-- <h2><a href="next_steps.html">Great job! Check out the next steps.</a></h2> -->
 
 		</div><!-- End .main -->
 	</div><!-- End #step-click_here .step-->
