@@ -1,0 +1,1483 @@
+# CZECH TRANSLATION OF THE EMAIL SELF DEFENSE
+# Copyright (C) 2016 Free Software Foundation, Inc.
+# This file is distributed under the
+# Creative Commons Attribution-ShareAlike 4.0 license (or later version)
+# https://creativecommons.org/licenses/by-sa/4.0
+#
+# Authors of the czech translation (please add your name to the list)
+# Tomáš Starý <tomichec@gmail.com> (complete initial translation of the guide in V4)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-03-28 03:11+0100\n"
+"PO-Revision-Date: 2016-04-02 19:16+0100\n"
+"Last-Translator: Tomáš Starý <tomichec@gmail.com>\n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: en/confirmation.html:6 en/index.html:6 en/infographic.html:6 en/mac.html:6
+#: en/next_steps.html:6 en/windows.html:6
+msgid "Email Self-Defense - a guide to fighting surveillance with GnuPG encryption"
+msgstr "Emailová sebeobrana - příručka pro boj proti špehování s GnuPG šifrováním"
+
+#. type: Content of: <html><body><header><div><p>
+#: en/confirmation.html:22
+msgid "<strong>Please check your email for a confirmation link now. Thanks for joining our list!</strong>"
+msgstr "<strong>Prosíme zkontrolujte váš email, na který byste nyní měli obdržet odkaz pro potvrzení. Děkujeme vám za připojení se k našemu emailovému listu.</strong>"
+
+#. type: Content of: <html><body><header><div><p>
+#: en/confirmation.html:24
+msgid "If you don't receive the confirmation link, send us an email at info@fsf.org to be added manually."
+msgstr "Pokud neobdržíte odkaz pro potvrzení, pošlete nám email na <a href=\"mailto:info@fsf.org\">info@fsf.org</a> abychom vás mohli přidat manuálně."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><p><img>
+#: en/confirmation.html:27 en/index.html:316 en/mac.html:317
+#: en/windows.html:312
+msgid "Try it out."
+msgstr "Vyzkoušejte to."
+
+#. type: Content of: <html><body><header><div><p>
+#: en/confirmation.html:29
+msgid "Join us on microblogging services for day-to-day updates:"
+msgstr "Připojte se k nám na mikro-blogovacích sítích pro denní zprávy:"
+
+#. type: Content of: <html><body><section><div><div><div><p><a>
+#: en/confirmation.html:31 en/next_steps.html:51
+msgid "<a href=\"https://status.fsf.org/fsf\">"
+msgstr "<a href=\"https://status.fsf.org/fsf\">"
+
+#. type: Attribute 'alt' of: <html><body><header><div><ul><li><a><img>
+#: en/confirmation.html:33 en/index.html:59 en/infographic.html:23
+#: en/mac.html:59 en/next_steps.html:53 en/windows.html:59 en/workshops.html:56
+msgid "[GNU Social]"
+msgstr "[GNU Social]"
+
+#. type: Content of: <html><body><section><div><div><div><p><a>
+#: en/confirmation.html:34 en/next_steps.html:54
+msgid "&nbsp;GNU Social </a> |&nbsp; <a href=\"http://microca.st/fsf\">"
+msgstr "&nbsp;GNU Social </a> |&nbsp; <a href=\"http://microca.st/fsf\">"
+
+#. type: Attribute 'alt' of: <html><body><header><div><ul><li><a><img>
+#: en/confirmation.html:38 en/index.html:61 en/infographic.html:25
+#: en/mac.html:61 en/next_steps.html:58 en/windows.html:61 en/workshops.html:57
+msgid "[Pump.io]"
+msgstr "[Pump.io]"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/confirmation.html:39 en/next_steps.html:59
+msgid "&nbsp;Pump.io </a> |&nbsp; <a href=\"https://www.twitter.com/fsf\">Twitter</a>"
+msgstr "&nbsp;Pump.io </a> |&nbsp; <a href=\"https://www.twitter.com/fsf\">Twitter</a>"
+
+#. type: Content of: <html><body><header><div><p>
+#: en/confirmation.html:43
+msgid "<small><a href=\"https://www.fsf.org/twitter\">Read why GNU Social and Pump.io are better than Twitter.</a></small>"
+msgstr "<small>Přečtěte si <a href=\"https://www.fsf.org/twitter\">proč je GNU Social a Pump.io lepší než Twitter.</a></small>"
+
+#. type: Content of: <html><body><header><div><p>
+#: en/confirmation.html:45
+msgid "&larr; Return to <a href=\"index.html\">Email Self-Defense</a>"
+msgstr "&larr; Zpět na <a href=\"index.html\">emailovou sebeobranu</a>"
+
+#. type: Content of: <html><body><footer><div><div><h4><a>
+#: en/confirmation.html:53 en/index.html:634 en/infographic.html:44
+#: en/mac.html:636 en/next_steps.html:186 en/windows.html:631
+#: en/workshops.html:253
+msgid "<a href=\"https://u.fsf.org/ys\">"
+msgstr "<a href=\"https://u.fsf.org/ys\">"
+
+#. type: Attribute 'alt' of: <html><body><footer><div><div><h4><a><img>
+#: en/confirmation.html:53 en/index.html:74 en/index.html:634
+#: en/infographic.html:44 en/mac.html:74 en/mac.html:636 en/next_steps.html:186
+#: en/windows.html:74 en/windows.html:631 en/workshops.html:67
+#: en/workshops.html:253
+msgid "Free Software Foundation"
+msgstr "Nadace pro svobodný software"
+
+#. type: Content of: <html><body><footer><div><p>
+#: en/confirmation.html:53 en/confirmation.html:65 en/index.html:66
+#: en/index.html:76 en/index.html:89 en/index.html:634 en/index.html:646
+#: en/infographic.html:44 en/infographic.html:56 en/mac.html:66 en/mac.html:76
+#: en/mac.html:89 en/mac.html:636 en/mac.html:648 en/next_steps.html:43
+#: en/next_steps.html:138 en/next_steps.html:186 en/next_steps.html:198
+#: en/windows.html:66 en/windows.html:76 en/windows.html:89 en/windows.html:631
+#: en/windows.html:643 en/workshops.html:60 en/workshops.html:68
+#: en/workshops.html:79 en/workshops.html:253 en/workshops.html:265
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <html><body><footer><div><div><p>
+#: en/confirmation.html:54 en/index.html:635 en/infographic.html:45
+#: en/mac.html:637 en/next_steps.html:187 en/windows.html:632
+#: en/workshops.html:254
+msgid "Copyright &copy; 2014-2016 <a href=\"https://u.fsf.org/ys\">Free Software Foundation</a>, Inc. <a href=\"https://my.fsf.org/donate/privacypolicy.html\">Privacy Policy</a>. Please support our work by <a href=\"https://u.fsf.org/yr\">joining us as an associate member.</a>"
+msgstr "Copyright &copy; 2014-2016 <a href=\"https://u.fsf.org/ys\">Free Software Foundation</a>, Inc. <a href=\"https://my.fsf.org/donate/privacypolicy.html\">ochrana osobních údajů</a>. Prosíme podpořte naši práci, <a href=\"https://u.fsf.org/yr\">přihlašte se ke členství.</a>"
+
+#. type: Content of: <html><body><footer><div><div><p>
+#: en/confirmation.html:56 en/index.html:637 en/infographic.html:47
+#: en/mac.html:639 en/next_steps.html:189 en/windows.html:634
+#: en/workshops.html:256
+msgid "The images on this page are under a <a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 license (or later version)</a>, and the rest of it is under a <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">Creative Commons Attribution-ShareAlike 4.0 license (or later version)</a>. Download the <a href=\"http://agpl.fsf.org/emailselfdefense.fsf.org/edward/CURRENT/edward.tar.gz\">source code of Edward reply bot</a> by Andrew Engelbrecht &lt;sudoman@ninthfloor.org&gt; and Josh Drake &lt;zamnedix@gnu.org&gt;, available under the GNU Affero General Public License. <a href=\"http://www.gnu.org/licenses/license-list.html#OtherLicenses\">Why these licenses?</a>"
+msgstr "Obrázky na této stránce jsou pod a <a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 license (or later version)</a>, zbytek obsahu je pod <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">Creative Commons Attribution-ShareAlike 4.0 license (or later version)</a>. Stáhněte si <a href=\"http://agpl.fsf.org/emailselfdefense.fsf.org/edward/CURRENT/edward.tar.gz\">zdrojový kód chatovacího bota Edwarda</a> by Andrew Engelbrecht &lt;sudoman@ninthfloor.org&gt; and Josh Draka &lt;zamnedix@gnu.org&gt;, zpřístupněného pod podmínkami GNU Affero General Public License. <a href=\"http://www.gnu.org/licenses/license-list.html#OtherLicenses\">Proč tyto license?</a>"
+
+#. type: Content of: <html><body><footer><div><div><p>
+#: en/confirmation.html:58 en/index.html:639 en/infographic.html:49
+#: en/mac.html:641 en/next_steps.html:191 en/windows.html:636
+#: en/workshops.html:258
+msgid "Fonts used in the guide &amp; infographic: <a href=\"https://www.google.com/fonts/specimen/Dosis\">Dosis</a> by Pablo Impallari, <a href=\"http://www.google.com/fonts/specimen/Signika\">Signika</a> by Anna Giedry&#347;, <a href=\"http://www.google.com/fonts/specimen/Archivo+Narrow\">Archivo Narrow</a> by Omnibus-Type, <a href=\"https://libreplanet.org/wiki/GPG_guide/Graphics_Howto#Pitfalls\">PXL-2000</a> by Florian Cramer."
+msgstr "Písma použité v této příručce a informačním letáku: <a href=\"https://www.google.com/fonts/specimen/Dosis\">Dosis</a>\nby Pablo Impallari, <a href=\"http://www.google.com/fonts/specimen/Signika\">Signika</a> by Anna Giedry&#347;, <a href=\"http://www.google.com/fonts/specimen/Archivo+Narrow\">Archivo Narrow</a> by Omnibus-Type, <a href=\"https://libreplanet.org/wiki/GPG_guide/Graphics_Howto#Pitfalls\">PXL-2000</a> by Florian Cramer."
+
+#. type: Content of: <html><body><footer><div><div><p>
+#: en/confirmation.html:60 en/index.html:641 en/infographic.html:51
+#: en/mac.html:643 en/next_steps.html:193 en/windows.html:638
+#: en/workshops.html:260
+msgid "Download the <a href=\"emailselfdefense_source.zip\">source package</a> for this guide, including fonts, image source files and the text of Edward's messages."
+msgstr "Stáhněte si <a href=\"emailselfdefense_source.zip\">balíček se zdrojovým kódem</a> této příručky, s přiloženými písmy, zdrojovými soubory pro obrázky a texty Edwardových zpráv."
+
+#. type: Content of: <html><body><footer><div><div><p>
+#: en/confirmation.html:62 en/index.html:643 en/infographic.html:53
+#: en/mac.html:645 en/next_steps.html:195 en/windows.html:640
+#: en/workshops.html:262
+msgid "This site uses the Weblabels standard for labeling <a href=\"https://www.fsf.org/campaigns/freejs\">free JavaScript</a>. View the JavaScript <a href=\"//weblabels.fsf.org/emailselfdefense.fsf.org/\" rel=\"jslicense\">source code and license information</a>."
+msgstr "Tato stránka používá Weblabels standard pro označení <a href=\"https://www.fsf.org/campaigns/freejs\">svobodného JavaScriptu</a>. Prohlédněte si <a href=\"//weblabels.fsf.org/emailselfdefense.fsf.org/\" rel=\"jslicense\">zdrojové kódy a licenční podmínky</a> JavaScriptu."
+
+#. type: Content of: <html><body><footer><div><p><a>
+#: en/confirmation.html:65 en/index.html:646 en/infographic.html:56
+#: en/mac.html:648 en/next_steps.html:198 en/windows.html:643
+#: en/workshops.html:265
+msgid "Infographic and guide design by <a rel=\"external\" href=\"http://jplusplus.org\"><strong>Journalism++</strong>"
+msgstr "Design informačního letáku a příručky od <a rel=\"external\" href=\"http://jplusplus.org\"><strong>Journalism++</strong>"
+
+#. type: Attribute 'alt' of: <html><body><footer><div><p><a><img>
+#: en/confirmation.html:65 en/index.html:646 en/infographic.html:56
+#: en/mac.html:648 en/next_steps.html:198 en/windows.html:643
+#: en/workshops.html:265
+msgid "Journalism++"
+msgstr "Journalism++"
+
+#. type: Content of: <html><body><script>
+#: en/confirmation.html:75 en/infographic.html:65 en/next_steps.html:207
+msgid "/* @licstart The following is the entire license notice for the JavaScript code in this page.  Copyright 2014 Matthieu Aubry This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  You should have received a copy of the GNU General Public License along with this program.  If not, see http://www.gnu.org/licenses/.  @licend The above is the entire license notice for the JavaScript code in this page.  */ var _paq = _paq || []; _paq.push([\"setDocumentTitle\", document.domain + \"/\" + document.title]); _paq.push([\"setCookieDomain\", \"*.www.fsf.org\"]); _paq.push([\"setDomains\", [\"*.www.fsf.org\",\"*.www.fsf.org\"]]); _paq.push([\"trackPageView\"]); _paq.push([\"enableLinkTracking\"]); (function() { var u=((\"https:\" == document.location.protocol) ? \"https\" : \"http\") + \"://piwik.fsf.org/\"; _paq.push([\"setTrackerUrl\", u+\"piwik.php\"]); _paq.push([\"setSiteId\", \"5\"]); var d=document, g=d.createElement(\"script\"), s=d.getElementsByTagName(\"script\")[0]; g.type=\"text/javascript\"; g.defer=true; g.async=true; g.src=u+\"piwik.js\"; s.parentNode.insertBefore(g,s); })();"
+msgstr "/* @licstart The following is the entire license notice for the JavaScript code in this page.  Copyright 2014 Matthieu Aubry This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.  You should have received a copy of the GNU General Public License along with this program.  If not, see http://www.gnu.org/licenses/.  @licend The above is the entire license notice for the JavaScript code in this page.  */ var _paq = _paq || []; _paq.push([\"setDocumentTitle\", document.domain + \"/\" + document.title]); _paq.push([\"setCookieDomain\", \"*.www.fsf.org\"]); _paq.push([\"setDomains\", [\"*.www.fsf.org\",\"*.www.fsf.org\"]]); _paq.push([\"trackPageView\"]); _paq.push([\"enableLinkTracking\"]); (function() { var u=((\"https:\" == document.location.protocol) ? \"https\" : \"http\") + \"://piwik.fsf.org/\"; _paq.push([\"setTrackerUrl\", u+\"piwik.php\"]); _paq.push([\"setSiteId\", \"5\"]); var d=document, g=d.createElement(\"script\"), s=d.getElementsByTagName(\"script\")[0]; g.type=\"text/javascript\"; g.defer=true; g.async=true; g.src=u+\"piwik.js\"; s.parentNode.insertBefore(g,s); })();"
+
+#. type: Content of: <html><body><header><div><h1>
+#: en/index.html:21 en/mac.html:21 en/windows.html:21 en/workshops.html:19
+msgid "Email Self-Defense"
+msgstr "Emailová sebeobrana"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:25 en/mac.html:25 en/windows.html:25 en/workshops.html:23
+msgid "<a class=\"current\" href=\"/en\">English - v4.0</a>"
+msgstr "<a class=\"current\" href=\"/en\">English - v4.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:27 en/mac.html:27 en/windows.html:27 en/workshops.html:25
+msgid "<a href=\"/de\">Deutsch - v3.0</a>"
+msgstr "<a href=\"/de\">Deutsch - v3.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:28 en/mac.html:28 en/windows.html:28 en/workshops.html:26
+msgid "<a href=\"/el\">ελληνικά - v3.0</a>"
+msgstr "<a href=\"/el\">ελληνικά - v3.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:29 en/mac.html:29 en/windows.html:29 en/workshops.html:27
+msgid "<a href=\"/es\">español - v3.0</a>"
+msgstr "<a href=\"/es\">español - v3.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:30 en/mac.html:30 en/windows.html:30 en/workshops.html:28
+msgid "<a href=\"/fr\">français - v4.0</a>"
+msgstr "<a href=\"/fr\">français - v4.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:31 en/mac.html:31 en/windows.html:31 en/workshops.html:29
+msgid "<a href=\"/it\">italiano - v3.0</a>"
+msgstr "<a href=\"/it\">italiano - v3.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:32 en/mac.html:32 en/windows.html:32 en/workshops.html:30
+msgid "<a href=\"/ja\">日本語 - v4.0</a>"
+msgstr "<a href=\"/ja\">日本語 - v4.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:35 en/mac.html:35 en/windows.html:35 en/workshops.html:33
+msgid "<a href=\"/pt-br\">português do Brasil - v3.0</a>"
+msgstr "<a href=\"/pt-br\">português do Brasil - v3.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:36 en/mac.html:36 en/windows.html:36 en/workshops.html:34
+msgid "<a href=\"/ro\">română - v3.0</a>"
+msgstr "<a href=\"/ro\">română - v3.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:37 en/mac.html:37 en/windows.html:37 en/workshops.html:35
+msgid "<a href=\"/ru\">русский - v4.0</a>"
+msgstr "<a href=\"/ru\">русский - v4.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:38 en/mac.html:38 en/windows.html:38 en/workshops.html:36
+msgid "<a href=\"/sq\">Shqip - v4.0</a>"
+msgstr "<a href=\"/sq\">Shqip - v4.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:39 en/mac.html:39 en/windows.html:39 en/workshops.html:37
+msgid "<a href=\"/sv\">svenska - v4.0</a>"
+msgstr "<a href=\"/sv\">svenska - v4.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:40 en/mac.html:40 en/windows.html:40 en/workshops.html:38
+msgid "<a href=\"/tr\">Türkçe - v4.0</a>"
+msgstr "<a href=\"/tr\">Türkçe - v4.0</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:41 en/mac.html:41 en/windows.html:41 en/workshops.html:39
+msgid "<a href=\"https://libreplanet.org/wiki/GPG_guide/Translation_Guide\"><strong><span style=\"color: #2F5FAA;\">Translate!</span></strong></a>"
+msgstr "<a href=\"https://libreplanet.org/wiki/GPG_guide/Translation_Guide\"><strong><span style=\"color: #2F5FAA;\">Pomozte s překladem ;-)</span></strong></a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:46
+msgid "<a href=\"index.html\" class=\"current\">GNU/Linux</a>"
+msgstr "<a href=\"index.html\" class=\"current\">GNU/Linux</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:49 en/windows.html:49 en/workshops.html:47
+msgid "<a href=\"mac.html\">Mac OS</a>"
+msgstr "<a href=\"mac.html\">Mac OS</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:52 en/mac.html:52 en/workshops.html:50
+msgid "<a href=\"windows.html\">Windows</a>"
+msgstr "<a href=\"windows.html\">Windows</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/index.html:54 en/mac.html:54 en/windows.html:54
+msgid "<a href=\"workshops.html\">Teach your friends</a>"
+msgstr "<a href=\"workshops.html\">Vzdělejte své známé</a>"
+
+#. type: Content of: <html><body><header><div><ul><li><a>
+#: en/index.html:56 en/mac.html:56 en/windows.html:56 en/workshops.html:54
+msgid "<a href=\"https://fsf.org/share?u=https://u.fsf.org/zb&amp;t=Email encryption for everyone via %40fsf\"> Share&nbsp;"
+msgstr "<a href=\"https://fsf.org/share?u=https://u.fsf.org/zb&amp;t=Email encryption for everyone via %40fsf\"> Sdílejte&nbsp;"
+
+#. type: Content of: <html><body><header><div><ul><li><a>
+#: en/index.html:59 en/index.html:61 en/index.html:63 en/infographic.html:23
+#: en/infographic.html:25 en/infographic.html:27 en/mac.html:59 en/mac.html:61
+#: en/mac.html:63 en/windows.html:59 en/windows.html:61 en/windows.html:63
+#: en/workshops.html:56 en/workshops.html:57 en/workshops.html:58
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. type: Attribute 'alt' of: <html><body><header><div><ul><li><a><img>
+#: en/index.html:63 en/infographic.html:27 en/mac.html:63 en/windows.html:63
+#: en/workshops.html:58
+msgid "[Reddit]"
+msgstr "[Reddit]"
+
+#. type: Attribute 'alt' of: <html><body><header><div><ul><li><a><img>
+#: en/index.html:65 en/infographic.html:29 en/mac.html:65 en/windows.html:65
+#: en/workshops.html:59
+msgid "[Hacker News]"
+msgstr "[Hacker News]"
+
+#. type: Content of: <html><body><header><div><div><h3><a>
+#: en/index.html:73 en/mac.html:73 en/windows.html:73 en/workshops.html:66
+msgid "<a href=\"http://u.fsf.org/ys\">"
+msgstr "<a href=\"http://u.fsf.org/ys\">"
+
+#. type: Content of: <html><body><header><div><div><div><p>
+#: en/index.html:80 en/mac.html:80 en/windows.html:80
+msgid "We fight for computer users' rights, and promote the development of free (as in freedom) software. Resisting bulk surveillance is very important to us."
+msgstr "Bojujeme za práva uživatelů a propagujeme rozvoj svobodného software. Ubránit se masovému špehování je pro nás velmi důležité."
+
+#. type: Content of: <html><body><header><div><div><div><p>
+#: en/index.html:83 en/mac.html:83 en/windows.html:83
+msgid "<strong> Please donate to support Email Self-Defense. We need to keep improving it and making other materials like, for the benefit of people around the world taking the first step towards protecting their privacy.  </strong>"
+msgstr "<strong> Prosíme přispějte k podpoře emailové sebeobrany. Chtěli bychom ji vylepšit a vytvořit další podobné materiály k prospěchu ostatních lidí kolem světa, kteří začínají bránít své soukromí. </strong>"
+
+#. type: Content of: <html><body><header><div><div><p><a>
+#: en/index.html:89 en/mac.html:89 en/next_steps.html:138 en/windows.html:89
+#: en/workshops.html:79
+msgid "<a href=\"https://crm.fsf.org/civicrm/contribute/transact?reset=1&amp;id=14&amp;pk_campaign=email_self_defense&amp;pk_kwd=guide_donate\">"
+msgstr "<a href=\"https://crm.fsf.org/civicrm/contribute/transact?reset=1&amp;id=14&amp;pk_campaign=email_self_defense&amp;pk_kwd=guide_donate\">"
+
+#. type: Attribute 'alt' of: <html><body><header><div><div><p><a><img>
+#: en/index.html:89 en/mac.html:89 en/next_steps.html:138 en/windows.html:89
+#: en/workshops.html:79
+msgid "Donate"
+msgstr "Přispějte"
+
+#. type: Content of: <html><body><header><div><div><p><a>
+#: en/index.html:96 en/mac.html:96 en/next_steps.html:43 en/windows.html:96
+msgid "<a id=\"infographic\" href=\"infographic.html\">"
+msgstr "<a id=\"infographic\" href=\"infographic.html\">"
+
+#. type: Attribute 'alt' of: <html><body><header><div><div><p><a><img>
+#: en/index.html:96 en/mac.html:96 en/next_steps.html:43 en/windows.html:96
+msgid "View &amp; share our infographic &rarr;"
+msgstr "Prohlédněte si a sdílejte náš informační leták &rarr;"
+
+#. type: Content of: <html><body><header><div><div><p>
+#: en/index.html:96 en/mac.html:96 en/windows.html:96
+msgid "</a>Bulk surveillance violates our fundamental rights and makes free speech risky. This guide will teach you a basic surveillance self-defense skill: email encryption. Once you've finished, you'll be able to send and receive emails that are scrambled to make sure a surveillance agent or thief intercepting your email can't read them. All you need is a computer with an Internet connection, an email account, and about forty minutes."
+msgstr "</a>Masové špehování porušuje naše základní práva a ohrožuje svobodu projevu. Tato příručka vás naučí základní dovednosti k sebeobraně proti sledování: šifrování emailové komunikace. Po jejím dokončení budete schopni posílat a přijímat zašifrované emaily, které znemožní čtení vaší komunikace v případě že je zachycena agenty špionážních služeb nebo počítačovými kriminálníky. Vše co k tomu budete potřebovat je počítač s připojením na internet, emailový účet a přibližně čtyřicet minut."
+
+#. type: Content of: <html><body><header><div><div><p>
+#: en/index.html:98 en/mac.html:98 en/windows.html:98
+msgid "Even if you have nothing to hide, using encryption helps protect the privacy of people you communicate with, and makes life difficult for bulk surveillance systems. If you do have something important to hide, you're in good company; these are the same tools that whistleblowers use to protect their identities while shining light on human rights abuses, corruption and other crimes."
+msgstr "I když nemáte co skrývat, použití šifrování chrání soukromí osob, se kterými komunikujete, a znesnadňuje práci systémů masového špehování. Pokud skrýváte cokoli důležitého, nejste sami; popisované nástroje ochránily identitu oznamovatelů, kteří upozornili na porušování lidských práv, úplatky a další trestné činy."
+
+#. type: Content of: <html><body><header><div><div><p>
+#: en/index.html:100 en/mac.html:100 en/windows.html:100
+msgid "In addition to using encryption, standing up to surveillance requires fighting politically for a <a href=\"http://gnu.org/philosophy/surveillance-vs-democracy.html\">reduction in the amount of data collected on us</a>, but the essential first step is to protect yourself and make surveillance of your communication as difficult as possible. This guide helps you do that. It is designed for beginners, but if you already know the basics of GnuPG or are an experienced free software user, you'll enjoy the advanced tips and the <a href=\"workshops.html\">guide to teaching your friends</a>."
+msgstr "Kromě použití šifrování vyžaduje boj proti proti masovému špehování také politický aktivizmus za <a href=\"http://gnu.org/philosophy/surveillance-vs-democracy.html\">snížení množství dat, které je o nás sbíráno</a>, ale ochrana vlastní komunikace proti slídilům je neodmyslitelným prvním krokem. Tato příručka vás naučí, jakým způsobem co nejvíce znesnadnit špehování vaších emailů. Instrukce jsou napsány pro začátečníky, ale pokud máte základní znalosti GnuPG nebo jste zkušený uživatel svobodného software, můžete využít tipy pro pokročilé a <a href=\"workshops.html\">návod, jak naučit základy šifrování své známé.</a>."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/index.html:112 en/mac.html:112 en/windows.html:112
+msgid "<em>#1</em> Get the pieces"
+msgstr "<em>#1</em> Nainstalujte programy"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:113
+msgid "This guide relies on software which is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">freely licensed</a>; it's completely transparent and anyone can copy it or make their own version. This makes it safer from surveillance than proprietary software (like Windows). Learn more about free software at <a href=\"https://u.fsf.org/ys\">fsf.org</a>."
+msgstr "Tato příručka je založena na software, který je poskytován <a href=\"https://www.gnu.org/philosophy/free-sw.html\">pod svobodnou licencí</a>; práce těchto programů je naprosto transparentní a kdokoli může obdržet kopii, nebo vytvořit svou vlastní verzi. Toto zaručuje větší bezpečnost proti špehování než nesvobodný software (jako například Windows). O svobodném software se můžete dozvědět více na stránce <a href=\"https://u.fsf.org/ys\">fsf.org</a>."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:115
+msgid "Most GNU/Linux operating systems come with GnuPG installed on them, so you don't have to download it. Before configuring GnuPG though, you'll need the IceDove desktop email program installed on your computer. Most GNU/Linux distributions have IceDove installed already, though it may be under the alternate name \"Thunderbird.\" Email programs are another way to access the same email accounts you can access in a browser (like Gmail), but provide extra features."
+msgstr "Většina operačních systémů GNU/Linux má GnuPG již připraven k použití, takže jej není potřeba stahovat. Předtím, než nastavíte GnuPG, musíte na váš počítač nainstalovat emailový program IceDove. Většína distribucí GNU/Linux má IceDove již nainstalován, ačkoli může být pod alternativním názvem \"Thunderbird.\" Emailové programy jsou jiný způsob pro přihlášení na stejný emailovému účtu, ke kterému se můžete připojovat přes prohlížeč (např. Gmail), ale poskytují další funkce."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:116 en/mac.html:115 en/windows.html:115
+msgid "If you already have an email program, you can skip to <a href=\"#step-1b\">Step 1.b</a>."
+msgstr "Pokud již emailový program máte, můžete jít rovnou na <a href=\"#step-1b\">Krok 1.b</a>."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><p><img>
+#: en/index.html:122 en/mac.html:121 en/windows.html:121
+msgid "Step 1.A: Install Wizard"
+msgstr "Krok 1.A: Průvodce nastavením"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:125 en/mac.html:124 en/windows.html:124
+msgid "<em>Step 1.a</em> Set up your email program with your email account"
+msgstr "<em>Krok 1.a</em>Nastavte emailový program pro svůj emailový účet"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:126 en/mac.html:125 en/windows.html:125
+msgid "Open your email program and follow the wizard (step-by-step walkthrough) that sets it up with your email account."
+msgstr "Otevřte emailový program a průvodce nastavením vám pomůže (krok za krokem) nastavit program pro váš emailový účet."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:127
+msgid "Look for the letters SSL, TLS, or STARTTLS to the right of the servers when you're setting up your account. If you don't see them, you will still be able to use encryption, but this means that the people running your email system are running behind the industry standard in protecting your security and privacy. We recommend that you send them a friendly email asking them to enable SSL, TLS, or STARTTLS for your email server. They will know what you're talking about, so it's worth making the request even if you aren't an expert on these security systems."
+msgstr "Všimněte si zkratek SSL, TLS, nebo STARTTLS napravo od jmen serverů v nastavení vašeho účtu. Pokud je nevidíte, tak budete pořád schopni používat šifrování, ale znamená to, že poskytovatel vašeho emailového systému je pozadu za průmyslovým standartem určeným k ochraně vaší bezpečnosti a soukromí. Doporučujeme vám, abyste laskavě požádali o spuštění SSL, TLS nebo STARTTLS na vašem emailovém serveru. Lidé zodpovídající za správu vašeho účtu budou vědět o čem je řeč, takže tento požadavek má cenu, i když nejste expert na tyto systémy zabezpečení."
+
+#. type: Content of: <html><body><section><div><div><div><div><h4>
+#: en/index.html:131 en/index.html:160 en/index.html:215 en/index.html:263
+#: en/index.html:352 en/mac.html:129 en/mac.html:168 en/mac.html:219
+#: en/mac.html:264 en/mac.html:353 en/windows.html:129 en/windows.html:168
+#: en/windows.html:218 en/windows.html:259 en/windows.html:348
+msgid "Troubleshooting"
+msgstr "Řešení problémů"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:133 en/mac.html:131 en/windows.html:131
+msgid "The wizard doesn't launch"
+msgstr "Průvodce nastavením se nespustil"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:134
+msgid "You can launch the wizard yourself, but the menu option for doing so is named differently in each email program. The button to launch it will be in the program's main menu, under \"New\" or something similar, titled something like \"Add account\" or \"New/Existing email account.\""
+msgstr "Můžete spustit průvodce sami, ale položka v menu se jmenuje jinak v každém emailovém programu. Tlačítko pro spuštění je v hlavním menu programu, pod položkou \"Nový\" nebo nějakou podobnou, nazvaný něčím podobným jako \"Přidat účet\" nebo \"Nový/Existující emailový účet.\""
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:135 en/mac.html:133 en/windows.html:133
+msgid "The wizard can't find my account or isn't downloading my mail"
+msgstr "Průvodce nastavením nemůže najít můj účet nebo nestahuje můj email"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:136 en/mac.html:134 en/windows.html:134
+msgid "Before searching the Web, we recommend you start by asking other people who use your email system, to figure out the correct settings."
+msgstr "Předtím, než začnete vyhledávat na internetu, doporučujeme vám se zeptat na správné nastavení dalších lidí, kteří používají stejný emailový systém."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:137 en/index.html:168 en/index.html:231 en/index.html:272
+#: en/index.html:360 en/mac.html:135 en/mac.html:173 en/mac.html:232
+#: en/mac.html:273 en/mac.html:361 en/windows.html:135 en/windows.html:173
+#: en/windows.html:229 en/windows.html:268 en/windows.html:356
+msgid "Don't see a solution to your problem?"
+msgstr "Nenašli jste řešení vašeho problému?"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:138 en/index.html:169 en/index.html:232 en/index.html:273
+#: en/index.html:361 en/mac.html:136 en/mac.html:174 en/mac.html:233
+#: en/mac.html:274 en/mac.html:362 en/windows.html:136 en/windows.html:174
+#: en/windows.html:230 en/windows.html:269 en/windows.html:357
+msgid "Please let us know on the <a href=\"https://libreplanet.org/wiki/GPG_guide/Public_Review\">feedback page</a>."
+msgstr "Dejte nám vědět na <a href=\"https://libreplanet.org/wiki/GPG_guide/Public_Review\">stránce pro zpětnou vazbu</a>."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><ul><li><img>
+#: en/index.html:149
+msgid "Step 1.B: Tools -> Add-ons"
+msgstr "Krok 1.B: Nástroje -> Doplňky"
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><ul><li><img>
+#: en/index.html:150
+msgid "Step 1.B: Search Add-ons"
+msgstr "Krok 1.B: Vyhledejte Doplňky"
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><ul><li><img>
+#: en/index.html:151
+msgid "Step 1.B: Install Add-ons"
+msgstr "Krok 1.B: Nainstalujte Doplňky"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:155
+msgid "<em>Step 1.b</em> Install the Enigmail plugin for your email program"
+msgstr "<em>Krok 1.b</em>Nainstalujte Enigmail plugin pro svůj emailový program"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:156
+msgid "In your email program's menu, select Add-ons (it may be in the Tools section). Make sure Extensions is selected on the left. Do you see Enigmail? If so, skip this step."
+msgstr "V menu vašeho emailového programu, vyberte Add-ons (pravděpodobně se nachází v sekci Nástroje). Ověřte, že nalevo jsou vybrané Extensions.Vidíte Enigmail? Pokud ano, přeskočte tento krok."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:157 en/mac.html:165 en/windows.html:165
+msgid "If not, search \"Enigmail\" with the search bar in the upper right. You can take it from here. Restart your email program when you're done."
+msgstr "Pokud ne, vyhledejte \"Enigmail\" v políčku pro vyhledávání vpravo nahoře. Můžete to vzít odsud. Po dokončení restartujte váš emailový program."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:163 en/mac.html:170 en/windows.html:170
+msgid "I can't find the menu."
+msgstr "Nemohu najít menu."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:164 en/mac.html:171 en/windows.html:171
+msgid "In many new email programs, the main menu is represented by an image of three stacked horizontal bars."
+msgstr "V mnoha emailových programech je položka hlavního menu zastoupena obrázkem tří vodorovných čar."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:165 en/index.html:223 en/mac.html:224 en/windows.html:226
+msgid "My email looks weird"
+msgstr "Mé emaily vypadají divně."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:166 en/index.html:224 en/mac.html:225 en/windows.html:227
+msgid "Enigmail doesn't tend to play nice with HTML, which is used to format emails, so it may disable your HTML formatting automatically. To send an HTML-formatted email without encryption or a signature, hold down the Shift key when you select compose. You can then write an email as if Enigmail wasn't there."
+msgstr "Enigmail běžně nezobrazuje správně HTML, které se používá pro formátování emailů, z toho důvodu je možné, že je HTML formátování automaticky vypnuto. Pro poslání emailu zformátovaného pomocí HTML bez šifrování nebo elektronického podpisu, stiskněte tlačítko Shift při zvolení akce pro napsání nového emailu. Poté můžete napsat email jakobyste Enigmail neměli."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/index.html:183 en/mac.html:187 en/windows.html:187
+msgid "<em>#2</em> Make your keys"
+msgstr "<em>#2</em> Vytvořte klíče"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:184 en/mac.html:188 en/windows.html:188
+msgid "To use the GnuPG system, you'll need a public key and a private key (known together as a keypair). Each is a long string of randomly generated numbers and letters that are unique to you. Your public and private keys are linked together by a special mathematical function."
+msgstr "Pro použití systému GnuPG budete potřebovat veřejný a soukromý klíč (takzvaný klíčový pár). Každý z nich je dlouhý řetězec náhodně vygenerovaných čísel a písmen, které vás jedinečně identifikují.  Váš veřejný a soukromý klíč jsou spojeny speciální matematickou funkcí."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:186 en/mac.html:190 en/windows.html:190
+msgid "Your public key isn't like a physical key, because it's stored in the open in an online directory called a keyserver. People download it and use it, along with GnuPG, to encrypt emails they send to you. You can think of the keyserver as a phonebook; people who want to send you encrypted email can look up your public key."
+msgstr "Váš veřejný klíč se liší of skutčného fyzického klíče, protože je uložen ve veřejně přístupné online databázi zvané keyserver. Kdokoli si může stáhnout váš klíč a použít ho společně s GnuPG pro zašifrování emailů, které vám chtějí poslat. Keyserver si můžete představit jako telefoní seznam, ve kterém si lidé, kteří vám chtějí poslat email, najdou váš veřejný klíč."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:188 en/mac.html:192 en/windows.html:192
+msgid "Your private key is more like a physical key, because you keep it to yourself (on your computer). You use GnuPG and your private key together to descramble encrypted emails other people send to you. <span style=\"font-weight: bold;\">You should never share you private key with anyone, under any circumstances.</span>"
+msgstr "Váš soukromý klíč je podobný skutečnému klíči, protože si ho musíte schovat pouze pro sebe (na vašem počítači). Pouze vy můžete použít GnuPG dohromady s vašim soukromým klíčem na rozluštění zašifrovaných emailů, které vám ostatní pošlou. <span style=\"font-weight: bold;\">V žádném případě nikdy nesmíte sdílet váš veřejný klíč s nikým dalším.</span>"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:189 en/mac.html:193 en/windows.html:193
+msgid "In addition to encryption and decryption, you can also use these keys to sign messages and check the authenticity of other people's signatures. We'll discuss this more in the next section."
+msgstr "Kromě zašifrování a rozšifrování můžete použít tyto klíče pro podpisovíní zpráv a kontrolu autenticity podpisů od ostatních. Více o tomto tématu se dozvíte v další sekci."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><p><img>
+#: en/index.html:195 en/mac.html:199 en/windows.html:199
+msgid "Step 2.A: Make a Keypair"
+msgstr "Krok 2.A: Vytvořte klíčový pár"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:198 en/mac.html:202 en/windows.html:202
+msgid "<em>Step 2.a</em> Make a keypair"
+msgstr "<em>Krok 2.a</em> Vytvořte klíčový pár"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:199 en/mac.html:203 en/windows.html:203
+msgid "The Enigmail Setup wizard may start automatically. If it doesn't, select Enigmail &rarr; Setup Wizard from your email program's menu. You don't need to read the text in the window that pops up unless you'd like to, but it's good to read the text on the later screens of the wizard. Click Next with the default options selected, except in these instances, which are listed in the order they appear:"
+msgstr "Průvodcd nastavením Enigmailu se možná spustí automaticky. Pokud ne, vyberte nabídku Enigmail&rarr; Průvodce nastavením z menu vašeho emailového programu. Pokud nechcete, není třeba číst text v okně, které se objeví, ale doporučujeme vám přečíst text na dalších stránkách průvodce. Proklikejte se s použitím tlačítka \"Další\" s požitím přednastavených možností, kromě následujících případů, které jsou očíslovány ve stejném pořadí jako se objeví:"
+
+#. type: Content of: <html><body><section><div><div><div><ul><li>
+#: en/index.html:201 en/mac.html:205 en/windows.html:205
+msgid "On the screen titled \"Encryption,\" select \"Encrypt all of my messages by default, because privacy is critical to me.\""
+msgstr "Na stránce s titulkem \"šifrování,\" vyberte \"Zašifrovat všechny zprávy automaticky, protože soukromí je pro mě kriticky důležité.\""
+
+#. type: Content of: <html><body><section><div><div><div><ul><li>
+#: en/index.html:202 en/mac.html:206 en/windows.html:206
+msgid "On the screen titled \"Signing,\" select \"Don't sign my messages by default.\""
+msgstr "Na stránce s titulkem \"Popis,\" select \"Nepodepisovat zprávy automaticky.\""
+
+#. type: Content of: <html><body><section><div><div><div><ul><li>
+#: en/index.html:203 en/mac.html:207 en/windows.html:207
+msgid "On the screen titled \"Key Selection,\" select \"I want to create a new key pair for signing and encrypting my email.\""
+msgstr "Na stránce s titulkem \"Výběr klíče,\" vyberte \"Chtěl bych vytvořit nový pár klíčů pro podpis a šifrování mých emailů.\""
+
+#. type: Content of: <html><body><section><div><div><div><ul><li>
+#: en/index.html:204 en/mac.html:208 en/windows.html:208
+msgid "On the screen titled \"Create Key,\" pick a strong password! You can do it manually, or you can use the Diceware method. Doing it manually is faster but not as secure. Using Diceware takes longer and requires dice, but creates a password that is much harder for attackers figure out. To use it, read the section \"Make a secure passphrase with Diceware\" in <a href=\"https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/\">this article</a> by Micah Lee."
+msgstr "Na stránce s titulkem \"Vytvořit klíč,\" zvolte silné heslo! Můžete zvolit heslo manuálně, nebo můýete použít Diceware method. Manuální volba je rychlá, ale není tak bezpečná. Použití Diceware trvá déle a vyžaduje hrací kostku, ale vytvořené heslo je mnohem složitější uhádnout případnými útočníky. Pro použití této metody si přečtěte sekci \"Vytvořte bezpečné heslo s Diceware\" v <a href=\"https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/\">tomto článku</a> od Micah Lee."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:207 en/mac.html:211 en/windows.html:211
+msgid "If you'd like to pick a password manually, come up with something you can remember which is at least twelve characters long, and includes at least one lower case and upper case letter and at least one number or punctuation symbol. Never pick a password you've used elsewhere. Don't use any recognizable patterns, such as birthdays, telephone numbers, pets' names, song lyrics, quotes from books, and so on."
+msgstr "Pokud chcete vybrat vaše heslo manuálně, vymyslete si něco co si zapamatujete a co má aspoň dvanáct znaků a obsahuje při nejmenším jedno malé písmeno, jedno velké a aspoň jedno číslo nebo symbol. Nikdy nepoužívejte heslo, které jste použili jinde. Nepoužívejte žádné rozpoznatelné vzorce, jako například data narození, telefonní čísla, jména domácích mazlíčků, názvy písní, citáty z knih atd."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:209 en/mac.html:213 en/windows.html:213
+msgid "The program will take a little while to finish the next step, the \"Key Creation\" screen. While you wait, do something else with your computer, like watching a movie or browsing the Web. The more you use the computer at this point, the faster the key creation will go."
+msgstr "Bude chvíli trvat než program dokončí další krok, kterým je vytvoření klíče. Zatímco čekáte, dělejte něco na svém počítačí, jako například sledování filmu nebo prohlížení internetu. čím více budete při tomto kroku používat počítač, tím rychleji bude klíč vytvořen."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:210 en/mac.html:214 en/windows.html:214
+msgid "<span style=\"font-weight: bold;\">When the \"Key Generation Completed\" screen pops up, select Generate Certificate and choose to save it in a safe place on your computer (we recommend making a folder called \"Revocation Certificate\" in your home folder and keeping it there). This step is essential for your email self-defense, as you'll learn more about in <a href=\"#section5\">Section 5</a>.</span>"
+msgstr "<span style=\"font-weight: bold;\">Až se objeví okno \"Vytvoření klíče dokončeno\", vyberte Vytvořit certifikát a uložte ho na bezpečné místo ve vašem počítači (doporučujeme vytvořit složku nazvanou \"Revokační certifikát\" ve vaší domovské složce a ponechat to tam). Tento krok je bezpodmínečně nutný pro vaši emailovou sebeobranu, jak se později dozvíte v <a href=\"#section5\">Sekci 5</a>.</span>"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:217 en/mac.html:221 en/windows.html:220
+msgid "I can't find the Enigmail menu."
+msgstr "Nemůžu najít menu pluginu Enigmail."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:218 en/mac.html:222 en/windows.html:221
+msgid "In many new email programs, the main menu is represented by an image of three stacked horizontal bars. Enigmail may be inside a section called Tools."
+msgstr "V mnoha nových emailových programech je hlavní menu reprezentováno obrázkem třech nakupených horizontálních čar. Enigmail možná bude v sekci nazvané Nástroje."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:220
+msgid "The wizard says that it cannot find GnuPG."
+msgstr "Průvodce nastavením hlásí, že nemůže najít GnuPG."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:221
+msgid "Open whatever program you usually use for installing software, and search for GnuPG, then install it. Then restart the Enigmail setup wizard by going to Enigmail &rarr; Setup Wizard."
+msgstr "Otevřete program, který běžně používáte pro instalování software, a vyhledejte a nainstalujte GnuPG. Po dokončení instalace, restartujte Průvodce nastavením pomocí menu Enigmail &rarr; Průvodce nastavením."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:226 en/index.html:358 en/mac.html:227 en/mac.html:359
+#: en/windows.html:223 en/windows.html:354
+msgid "More resources"
+msgstr "Více informací"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:227 en/mac.html:228 en/windows.html:224
+msgid "If you're having trouble with our instructions or just want to learn more, check out <a href=\"https://enigmail.wiki/Key_Management#Generating_your_own_key_pair\">Enigmail's wiki instructions for key generation</a>."
+msgstr "Pokud jsou vám naše instrukce nejasné, nebo se chcete dozvědět více, navštivte <a href=\"https://enigmail.wiki/Key_Management#Generating_your_own_key_pair\">Instrukce na wiki pluginu Enigmail pro vytvořeni klíče</a>."
+
+#. type: Content of: <html><body><section><div><div><div><div><h4>
+#: en/index.html:238 en/index.html:280 en/index.html:368 en/index.html:490
+#: en/mac.html:239 en/mac.html:281 en/mac.html:369 en/mac.html:491
+#: en/windows.html:236 en/windows.html:276 en/windows.html:364
+#: en/windows.html:486
+msgid "Advanced"
+msgstr "Pro pokročilé"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:242 en/mac.html:243 en/windows.html:238
+msgid "Command line key generation"
+msgstr "Vytvoření klíče pomocí příkazové řádky"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:243 en/mac.html:244 en/windows.html:239
+msgid "If you prefer using the command line for a higher degree of control, you can follow the documentation from <a href=\"https://www.gnupg.org/gph/en/manual/c14.html#AEN25\">The GNU Privacy Handbook</a>. Make sure you stick with \"RSA and RSA\" (the default), because it's newer and more secure than the algorithms the documentation recommends. Also make sure your key is at least 2048 bits, or 4096 if you want to be extra secure."
+msgstr "Pokud upřednostňujete použití příkazové řádky pro vyšší míru kontroly, můžete postupovat podle dokumentace v <a href=\"https://www.gnupg.org/gph/en/manual/c14.html#AEN25\">The GNU Privacy Handbook</a>. Ověřte, že jste zvolili \"RSA and RSA\" (přednastavené volba), protože to je novější a bezpečnější algoritmus, než je doporučen v dokumentaci. Taky ověřte, že váš klíč je alespoň 2048 bitů, nebo 4096 pro ještě vyžší míru zabezpečení."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:245 en/mac.html:246 en/windows.html:241
+msgid "Advanced key pairs"
+msgstr "Pokročilé páry klíčů"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:246 en/mac.html:247 en/windows.html:242
+msgid "When GnuPG creates a new keypair, it compartmentalizes the encryption function from the signing function through <a href=\"https://wiki.debian.org/Subkeys\">subkeys</a>. If you use subkeys carefully, you can keep your GnuPG identity much more secure and recover from a compromised key much more quickly. <a href=\"https://alexcabal.com/creating-the-perfect-gpg-keypair/\">Alex Cabal</a> and <a href=\"http://keyring.debian.org/creating-key.html\">the Debian wiki</a> provide good guides for setting up a secure subkey configuration."
+msgstr "Když GnuPG vytvoří nový pár klíčů, rozdělí funkci pro šifrování od funkce pro podpis pomocí <a href=\"https://wiki.debian.org/Subkeys\">subkeys (sub-klíčů)</a>. Pokud používáte subkeys, můžete udržet vaší GnuPG identitu mnohem lépe zabezpečenou a rychleji obnovit kompromitované klíče. <a href=\"https://alexcabal.com/creating-the-perfect-gpg-keypair/\">Alex Cabal</a> a <a href=\"http://keyring.debian.org/creating-key.html\">wiki distribuce Debian</a> přinášejí dobré průvodce pro bezpečného nastavení sub-klíčů."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:257 en/mac.html:258 en/windows.html:253
+msgid "<em>Step 2.b</em> Upload your public key to a keyserver"
+msgstr "<em>Krok 2.b</em> Nahrajte váš veřejný klíč na keyserver"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:258 en/mac.html:259 en/windows.html:254
+msgid "In your email program's menu, select Enigmail &rarr; Key Management."
+msgstr "Ve vašem emailovém programu zvolte Enigmail &rarr; Správa klíčů."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:259 en/mac.html:260 en/windows.html:255
+msgid "Right click on your key and select Upload Public Keys to Keyserver. Use the default keyserver in the popup."
+msgstr "Klikněte pravým tlačítkem na váš klíč a zvolte Nahrát veřejný klíč na Keyserver. V okně, které se objeví, použijte přednastavený keyserver."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:260 en/mac.html:261 en/windows.html:256
+msgid "Now someone who wants to send you an encrypted message can download your public key from the Internet. There are multiple keyservers that you can select from the menu when you upload, but they are all copies of each other, so it doesn't matter which one you use. However, it sometimes takes a few hours for them to match each other when a new key is uploaded."
+msgstr "Nyní si může kdokoli, kdo vám chce poslat zašifrovanou zprávu, stáhnout váš veřejný klíč z internetu. V menu je několik keyserverů, které můžete zvolit když nahraváte klíč, ale všechny jsou navzájem kopírovány, takže je jedno, který z nich se rozhodnete použít. V některých případech ale může trvat i pár hodin, než si servery navzájem předají nově nahraný klíč."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:265 en/mac.html:266 en/windows.html:261
+msgid "The progress bar never finishes"
+msgstr "Ukazatel průběhu se neukončí"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:266 en/mac.html:267 en/windows.html:262
+msgid "Close the upload popup, make sure you are connected to the Internet, and try again. If that doesn't work, try again, selecting a different keyserver."
+msgstr "Zavřete okno s ukazatelem, ověřte, že jste připojeni k internetu a celý postup opakujte. Pokud se stále klíč nedaří nahrát, vyberte jiný keyserver."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:267 en/mac.html:268 en/windows.html:263
+msgid "My key doesn't appear in the list"
+msgstr "Můj klíč se neobjeví v seznamu"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:268 en/mac.html:269 en/windows.html:264
+msgid "Try checking \"Display All Keys by Default.\""
+msgstr "Zkuste zvolit \"Zobrazit všechny klíče.\""
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:269 en/mac.html:270 en/windows.html:265
+msgid "More documentation"
+msgstr "Další dokumentace"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:270 en/mac.html:271 en/windows.html:266
+msgid "If you're having trouble with our instructions or just want to learn more, check out <a href=\"https://www.enigmail.net/documentation/quickstart-ch2.php#id2533620\">Enigmail's documentation</a>."
+msgstr "Pokud jsou vám naše instrukce nejasné, nebo se chcete dozvědět více, navštivte <a href=\"https://www.enigmail.net/documentation/quickstart-ch2.php#id2533620\">dokumentaci pluginu Enigmail</a>."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:282 en/mac.html:283 en/windows.html:278
+msgid "Uploading a key from the command line"
+msgstr "Nahrání klíče z příkazové řádky"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:283 en/mac.html:284 en/windows.html:279
+msgid "You can also upload your keys to a keyserver through the <a href=\"https://www.gnupg.org/gph/en/manual/x457.html\">command line</a>. <a href=\"https://sks-keyservers.net/overview-of-pools.php\">The sks Web site</a> maintains a list of highly interconnected keyservers. You can also <a href=\"https://www.gnupg.org/gph/en/manual/x56.html#AEN64\">directly export your key</a> as a file on your computer."
+msgstr "Také můžete nahrát váš klíč na keyserver pomocí <a href=\"https://www.gnupg.org/gph/en/manual/x457.html\">příkazové řádky</a>. <a href=\"https://sks-keyservers.net/overview-of-pools.php\">Stránky sks</a> obsahují seznam dobře propojených keyserverů. Můžete také <a href=\"https://www.gnupg.org/gph/en/manual/x56.html#AEN64\">exportovat váš klíč </a> na váš počítač jako soubor."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:293 en/mac.html:294 en/windows.html:289
+msgid "GnuPG, OpenPGP, what?"
+msgstr "Jaký je rozdíl mezi GnuPG a OpenPGP?"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:294 en/mac.html:295 en/windows.html:290
+msgid "In general, the terms GnuPG, GPG, GNU Privacy Guard, OpenPGP and PGP are used interchangeably. Technically, OpenPGP (Pretty Good Privacy) is the encryption standard, and GNU Privacy Guard (often shortened to GPG or GnuPG) is the program that implements the standard. Enigmail is a plug-in program for your email program that provides an interface for GnuPG."
+msgstr "Obecně jsou pojmy GnuPG, GPG a GNU Privacy Guard, OpenGPG a PGP zaměnitelné. Z technického hlediska je OpenGPG (Pretty Good Privacy) je šifrovací standart, a GNU Privacy Guard (často jako zkracován jako GPG or GnuPG) je program, který implementuje tento šifrovací standart. Enigmail je plugin pro váš email, který poskytuje rozhraní pro GnuPG."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/index.html:307 en/mac.html:308 en/windows.html:303
+msgid "<em>#3</em> Try it out!"
+msgstr "<em>#3</em> Vyzkoušejte to!"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:308 en/mac.html:309 en/windows.html:304
+msgid "Now you'll try a test correspondence with a computer program named Edward, who knows how to use encryption. Except where noted, these are the same steps you'd follow when corresponding with a real, live person."
+msgstr "Nyní můžete vyskoušet korespondenci s počítačovým programem Edwardem, který ví, jak používat šifrování. Pokud není řečeno jinak, je tento postup stejný, jakokdyby jste si dopisovali se skutečnou osobou."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:319 en/mac.html:320 en/windows.html:315
+msgid "<em>Step 3.a</em> Send Edward your public key"
+msgstr "<em>Krok 3.a</em> Pošlete Edwardovi váš veřejný klíč"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:320 en/mac.html:321 en/windows.html:316
+msgid "This is a special step that you won't have to do when corresponding with real people. In your email program's menu, go to Enigmail &rarr; Key Management. You should see your key in the list that pops up. Right click on your key and select Send Public Keys by Email. This will create a new draft message, as if you had just hit the Write button."
+msgstr "Tento krok nebudete potřebovat při dopisování se skutečnou osobou. V menu svého emailovém programu, jděte do Enigmail &rarr; Správa klíčů. Mělibyste vidět váš klíč v listě který se objeví. Klikněte pravým tlačítkem na váš klíč a vyberte Poslat veřejný klíč emailem. Toto otevře novou zprávu, jakobyste klikli na tlačítko napsat zprávu."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:322 en/mac.html:323 en/windows.html:318
+msgid "Address the message to <a href=\"mailto:edward-en@fsf.org\">edward-en@fsf.org</a>. Put at least one word (whatever you want) in the subject and body of the email. Don't send yet."
+msgstr "Adresujte zprávu na <a href=\"mailto:edward-en@fsf.org\">edward-en@fsf.org</a>. Napište alespoň jedno slovo do předmětu zprávy a samotného emailu (může to být cokoli). Zatím neodesílejte."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:324 en/mac.html:325 en/windows.html:320
+msgid "The lock icon in the top left should be yellow, meaning encryption is turned on. We want this first special message to be unencrypted, so click the icon once to turn it off. The lock should become grey, with a blue dot on it (to alert you that the setting has been changed from the default). Once encryption is off, hit Send."
+msgstr "Ikona zámku na vlevo nahoře by měla být zvýrazněna žlutě, což znamená, že šifrování je zapnuto. Tato první zpráva by měla být nezašifrovaná, což zařídíte tak, že jednou kliknete na ikonu, což šifrování vypne. Ikona zámku se zároveň vybarví šedě s modrou tečkou (čímž vás upozorňuje, že toto nastavení bylo změněno oproti základnímu nastavení). Pokud je šifrování vypnuto, zprávu odešlete."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:330 en/mac.html:331 en/windows.html:326
+msgid "It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href=\"#section5\">Use it Well</a> section of this guide. Once he's responded, head to the next step. From here on, you'll be doing just the same thing as when corresponding with a real person."
+msgstr "Edwardovi to může trvat dvě až tři minuty, než vám odepíše. Zatím, si můžete přečíst sekci <a href=\"#section5\"> o správném použití</a> v této příručce. Až Edward odepíše, pokračujte na další krok. Další kroky jsou stejné při dopisování si se skutečnou osobou."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:332 en/mac.html:333 en/windows.html:328
+msgid "When you open Edward's reply, GnuPG may prompt you for your password before using your private key to decrypt it."
+msgstr "Když otevřete Edwardovu odpověď, GnuPG se zeptá na heslo před použitím vašeho soukromého klíče pro dešifrování."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:339 en/mac.html:340 en/windows.html:335
+msgid "<em>Step 3.b</em> Send a test encrypted email"
+msgstr "<em>Krok 3.b</em> Pošlete testovací šifrovaný email"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:340 en/mac.html:341 en/windows.html:336
+msgid "Write a new email in your email program, addressed to <a href=\"mailto:edward-en@fsf.org\">edward-en@fsf.org</a>. Make the subject \"Encryption test\" or something similar and write something in the body."
+msgstr "Napište email ve vašem emailovém programu, adresovaný <a href=\"mailto:edward-en@fsf.org\">edward-en@fsf.org</a>. Do předmětu emailu napište \"Zkouška šifrování\" nebo něco podobného a napište něco do obsahu emailu."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:341 en/mac.html:342 en/windows.html:337
+msgid "The lock icon in the top left of the window should be yellow, meaning encryption is on. This will be your default from now on."
+msgstr "Ikona zámku vlevo nahoře v okně by měla být žlutá, což znamená, že šifrování je zapnuté. Toto bude od nynejška základní nastavení."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:342 en/mac.html:343 en/windows.html:338
+msgid "Next to the lock, you'll notice an icon of a pencil. We'll get to this in a moment."
+msgstr "Vedle zámku můžete vidět ikonu pera. O této funkci se více dozvíte za chvíli."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:343 en/mac.html:344 en/windows.html:339
+msgid "Click Send. Enigmail will pop up a window that says \"Recipients not valid, not trusted or not found.\""
+msgstr "Klikněte na Odeslat. Enigmail otevře okno s nápisem \"Příjemci nejsou ověřeni, důvěřování nebo nalezeni.\""
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:345 en/mac.html:346 en/windows.html:341
+msgid "To encrypt an email to Edward, you need his public key, so now you'll have Enigmail download it from a keyserver. Click Download Missing Keys and use the default in the pop-up that asks you to choose a keyserver. Once it finds keys, check the first one (Key ID starting with C), then select ok. Select ok in the next pop-up."
+msgstr "Abyste zašifrovali email pro Edwarda, budete potřebovat jeho veřejný klíč, takže můžete Enigmail nechat jeho klíč stáhnout z keyserveru. Klikněte na Stáhnout chybějící klíče a použijte základní nastavení v okně, které se objeví a zeptá na vaši volbu keyserveru. Poté co budou klíče nalezeny, zaškrkněte první z nich (ID klíče začíná písmenem C), a poté zvolte OK. Zvolte OK také v dalším okně, které se objeví."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:347 en/mac.html:348 en/windows.html:343
+msgid "Now you are back at the \"Recipients not valid, not trusted or not found\" screen. Check the box in front of Edward's key and click Send."
+msgstr "Nyní jste zpět na obrazovce \"Příjemci nejsou nejsou ověřeni, důvěřování nebo nalezeni\". Vyberte pole před Edwardovým klíčem a klikněte na Odeslat."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:349 en/mac.html:350 en/windows.html:345
+msgid "Since you encrypted this email with Edward's public key, Edward's private key is required to decrypt it. Edward is the only one with his private key, so no one except him can decrypt it."
+msgstr "Protože jste zašifrovali tento email s Edwardovým veřejným klíčem, pro dešifrování je potřeba Edwardova soukromého klíče. Edward je jediný, kdo má tento soukromý klíč, takže kromě něj nemůže nikdo další zprávu dešifrovat."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:354 en/mac.html:355 en/windows.html:350
+msgid "Enigmail can't find Edward's key"
+msgstr "Enigmail nemůže nalézt Edwardův klíč"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:355 en/mac.html:356 en/windows.html:351
+msgid "Close the pop-ups that have appeared since you clicked Send. Make sure you are connected to the Internet and try again. If that doesn't work, repeat the process, choosing a different keyserver when it asks you to pick one."
+msgstr "Zavřete okna, která se objevily poté co jste klikli na Odeslat. Zkontrolujte, že jste připojeni na internet a zkuste to znova. Pokud to stále nefunguje, zopakujte celý postup a až budete vyzvání k výběru keyserveru, vyberte jiný než minule."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:356 en/mac.html:357 en/windows.html:352
+msgid "Unscrambled messages in the Sent folder"
+msgstr "Nezašifrované zprávy ve složce Odeslané"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:357 en/mac.html:358 en/windows.html:353
+msgid "Even though you can't decrypt messages encrypted to someone else's key, your email program will automatically save a copy encrypted to your public key, which you'll be able to view from the Sent folder like a normal email. This is normal, and it doesn't mean that your email was not sent encrypted."
+msgstr "I když nemůžete dešifrovat zprávy zašifrované klíčem někoho jiného, váš emailový program automaticky uloží kopiji zašifrovanou vašim veřejným klíčem, kterou budete moci otevřít ve složce Odeslané jako běžný email. Toto je normální a neznamená to, že vaše zpráva nebyla odeslaná nezašifrovaně."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:359 en/mac.html:360 en/windows.html:355
+msgid "If you're still having trouble with our instructions or just want to learn more, check out <a href=\"https://enigmail.wiki/Signature_and_Encryption#Encrypting_a_message\">Enigmail's wiki</a>."
+msgstr "Pokud máte další nejasnosti s našimi instrukcemi, nebo se chcete dozvědět více navštivte <a href=\"https://enigmail.wiki/Signature_and_Encryption#Encrypting_a_message\">Enigmail's wiki</a>."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:370 en/mac.html:371 en/windows.html:366
+msgid "Encrypt messages from the command line"
+msgstr "Šifrování zpráv z příkazové řádky"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:371 en/mac.html:372 en/windows.html:367
+msgid "You can also encrypt and decrypt messages and files from the <a href=\"https://www.gnupg.org/gph/en/manual/x110.html\">command line</a>, if that's your preference. The option --armor makes the encrypted output appear in the regular character set."
+msgstr "Také můžete šifrovat zprávy z <a href=\"https://www.gnupg.org/gph/en/manual/x110.html\">příkazové řádky</a>, pokud to upřednostňujete. Možnost --armor zaručí, že zpráva se objeví v standartní saďe znaků."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:382 en/mac.html:383 en/windows.html:378
+msgid "<em>Important:</em> Security tips"
+msgstr "<em>Důležité:</em> Bezpčnostní tipy"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:383 en/mac.html:384 en/windows.html:379
+msgid "Even if you encrypt your email, the subject line is not encrypted, so don't put private information there. The sending and receiving addresses aren't encrypted either, so a surveillance system can still figure out who you're communicating with. Also, surveillance agents will know that you're using GnuPG, even if they can't figure out what you're saying. When you send attachments, Enigmail will give you the choice to encrypt them or not, independent of the actual email."
+msgstr "I přesto, že jste zašifrovali obsah vašeho emailu, jeho předmět zašifrovaný není, takže v předmětu nezmiňujte žádné citlivé informace. Rovněž adresy odesílatele a příjemců nejsou zašifrované, takže špionážní systémy mohou stále zjistit s kým komunikujete. Agentům špionážních služeb bude také zřejmé, že používáte GnuGP, i když obsah vašich zpráv nezjistí."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:391 en/mac.html:392 en/windows.html:387
+msgid "<em>Step 3.c</em> Receive a response"
+msgstr "<em>Step 3.c</em> Obdržte odpověď"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:392 en/mac.html:393 en/windows.html:388
+msgid "When Edward receives your email, he will use his private key to decrypt it, then use your public key (which you sent him in <a href=\"#step-3a\">Step 3.A</a>) to encrypt his reply to you."
+msgstr "Když Edward dostane váš email, použije svůj soukromý klíč pro jeho dešifrování, poté použije váš veřejný klíč (který jste mu poslali v <a href=\"#step-3a\">Kroku 3.A</a>), aby zašifroval svou odpověď pro vás."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:394 en/index.html:420 en/mac.html:395 en/mac.html:421
+#: en/windows.html:390 en/windows.html:416
+msgid "It may take two or three minutes for Edward to respond. In the meantime, you might want to skip ahead and check out the <a href=\"#section5\">Use it Well</a> section of this guide."
+msgstr "Edwardovi to může trvat pár minut, než vám odepíše. Během čekání na odpověď, si můžete přečíst sekci <a href=\"#section5\">Správné použití</a> v této příručce."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:395 en/mac.html:396 en/windows.html:391
+msgid "When you receive Edward's email and open it, Enigmail will automatically detect that it is encrypted with your public key, and then it will use your private key to decrypt it."
+msgstr "Když obdržíte Edwardův email a otevřete ho, Enigmail automaticky zjistí, že je šifrovaný vašim veřejným klíčem, a použije váš soukromý klíč aby ho dešifroval."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:396 en/mac.html:397 en/windows.html:392
+msgid "Notice the bar that Enigmail shows you above the message, with information about the status of Edward's key."
+msgstr "Všiměte si lišty s informacemi o stavu Edwardova klíče, kterou Enigmail zobrazí nad vaši zprávou."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:403 en/mac.html:404 en/windows.html:399
+msgid "<em>Step 3.d</em> Send a test signed email"
+msgstr "<em>Krok 3.d</em> Pošlete testovací podepsaný email"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:404 en/mac.html:405 en/windows.html:400
+msgid "GnuPG includes a way for you to sign messages and files, verifying that they came from you and that they weren't tampered with along the way. These signatures are stronger than their pen-and-paper cousins -- they're impossible to forge, because they're impossible to create without your private key (another reason to keep your private key safe)."
+msgstr "GnuPG umožňuje elektronické podepsání vaší zprávy a souborů, pro ověření, že přicházejí od vás a že s nimi nebylo manipulováno během přenosu. Elektronický podpis je spolehlivější než tradiční podpis perem na papíře -- je nemožné ho padělat, protože jej není možné vytvořit bez vašeho soukromého klíče (což je další důvod pro bezpečné uložení vašeho klíče)."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:406 en/mac.html:407 en/windows.html:402
+msgid "You can sign messages to anyone, so it's a great way to make people aware that you use GnuPG and that they can communicate with you securely. If they don't have GnuPG, they will be able to read your message and see your signature. If they do have GnuPG, they'll also be able to verify that your signature is authentic."
+msgstr "Můžete podepsat zprávu pro kohokoli, což to je skvělý způsob, jak ostatním ukázat, že používáte GnuPG a že s vámi mohou komunikovat zabezpečeně. Pokud příjemce nemá GnuPG, může si přečíst vaše zprávy a uvidí váš podpis. Pokud GnuPG má, může rovněž ověřit pravost vašeho podpisu."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:408 en/mac.html:409 en/windows.html:404
+msgid "To sign an email to Edward, compose any message to him and click the pencil icon next to the lock icon so that it turns gold. If you sign a message, GnuPG may ask you for your password before it sends the message, because it needs to unlock your private key for signing."
+msgstr "Pro podepsání emailu Edwardovi, mu napište jakoukoli zprávu a klikněte na ikonu pera hned vedle ikony zámku, tak, aby se zbarvila do zlata. Pokud zprávu podepíšete, GnuPG se vás zeptá před jejím odesláním na vaše heslo, protože pro vytvoření podpisu je třeba odemknout váš soukromý klíč."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:410 en/mac.html:411 en/windows.html:406
+msgid "With the lock and pencil icons, you can choose whether each message will be encrypted, signed, both, or neither."
+msgstr "S ikonami zámku a pera, můžete vybrat, jestli bude vaše zpráva zašifrovaná, podepsaná, obojí, nebo ani jedno."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:417 en/mac.html:418 en/windows.html:413
+msgid "<em>Step 3.e</em> Receive a response"
+msgstr "<em>Krok 3.e</em> Obdržte odpověď"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:418 en/mac.html:419 en/windows.html:414
+msgid "When Edward receives your email, he will use your public key (which you sent him in <a href=\"#step-3a\">Step 3.A</a>) to verify that your signature is authentic and the message you sent has not been tampered with."
+msgstr "Když Edward dostane vaši zprávu, použije váš veřejný klíč (jenž jste mu poslali v <a href=\"#step-3a\">Kroku 3.A</a>), aby ověřil, že váš podpis je autentický a že s vaší zprávou nebylo manipulováno."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:422 en/mac.html:423 en/windows.html:418
+msgid "Edward's reply will arrive encrypted, because he prefers to use encryption whenever possible. If everything goes according to plan, it should say \"Your signature was verified.\" If your test signed email was also encrypted, he will mention that first."
+msgstr "Edwardovy odpovědi dojdou zašifrované, protože Edward upřednostňuje šifrování kdy je to jen možné. Pokud jde vše podle plánu, měl by říct \"Váš podpis byl ověřen.\" Pokud váš testovací email s podpisem byl rovněž podepsán, zmíní tuto informaci jako první."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/index.html:434 en/mac.html:435 en/windows.html:430
+msgid "<em>#4</em> Learn the Web of Trust"
+msgstr "<em>#4</em> Síť důvěry"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:435 en/mac.html:436 en/windows.html:431
+msgid "Email encryption is a powerful technology, but it has a weakness; it requires a way to verify that a person's public key is actually theirs. Otherwise, there would be no way to stop an attacker from making an email address with your friend's name, creating keys to go with it and impersonating your friend. That's why the free software programmers that developed email encryption created keysigning and the Web of Trust."
+msgstr "Šifrování emailu je silná technologie, ale má slabou stránku; vyžaduje způsob jak ověřit, že veřejný klíč je skutečně od té pravé osoby. Jinak by nebylo možné zabránit, aby útočník vydávajícího se za vašeho přítele vytvořil emailovou adresu a klíče pod jeho jménem. Z tohoto důvodu programátoři, kteří vytvořili emailové šifrování rovněž vytvořili podpisování klíču a Síť důvěry."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:437 en/mac.html:438 en/windows.html:433
+msgid "When you sign someone's key, you are publicly saying that you've verified that it belongs to them and not someone else."
+msgstr "Když podepíšete něčí klíč, veřejně oznamujete, že jste ověřili, že skutečně patří této osobě a ne nikomu jinému."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:439 en/mac.html:440 en/windows.html:435
+msgid "Signing keys and signing messages use the same type of mathematical operation, but they carry very different implications. It's a good practice to generally sign your email, but if you casually sign people's keys, you may accidently end up vouching for the identity of an imposter."
+msgstr "Podpisování klíčů a podpisování zpráv používá stejnou matematickou operaci, ale každý z těchto podpisů má jiné důsledky. Je v pořádku podepsat každý váš email, ale pokud podepíšete klíč jiné osoby, aniž byste ověřili její identitu, můžete se omylem zaručit za podvodníka."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:441 en/mac.html:442 en/windows.html:437
+msgid "People who use your public key can see who has signed it. Once you've used GnuPG for a long time, your key may have hundreds of signatures. You can consider a key to be more trustworthy if it has many signatures from people that you trust. The Web of Trust is a constellation of GnuPG users, connected to each other by chains of trust expressed through signatures."
+msgstr "Lidé, kteří používají veřejné klíče mohou vidět, kdo je podepsal. Až budete používat GnuPG dlouhou dobu, váš klíč může mít stovky podpisů. Klíč se stává důvěryhodnější, pokud má mnoho podpisů od lidí, které znáte. Síť důvěry je uskupení uživatelů GnuPG, spojených dohromady pomocí řetězce důvěry, kterou vyjádřili pomocí svých podpisů."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><p><img>
+#: en/index.html:448 en/mac.html:449 en/windows.html:444
+msgid "Section 4: Web of Trust"
+msgstr "Sekce 4: Síť důvěry"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:451 en/mac.html:452 en/windows.html:447
+msgid "<em>Step 4.a</em> Sign a key"
+msgstr "<em>Krok 4.a</em> Podepište klíč"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:452 en/mac.html:453 en/windows.html:448
+msgid "In your email program's menu, go to Enigmail &rarr; Key Management."
+msgstr "Ve menu vašeho emailového programu jděte na Enigmail &rarr; Správa klíčů."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:453 en/mac.html:454 en/windows.html:449
+msgid "Right click on Edward's public key and select Sign Key from the context menu."
+msgstr "Klikněte pravým tlačítkem na Edwardův veřejný klíč a vyberte Podepsat Klíč z nabídky."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:454 en/mac.html:455 en/windows.html:450
+msgid "In the window that pops up, select \"I will not answer\" and click ok."
+msgstr "V okně které se objeví zvolte \"Neodpovím\" a klikněte na ok."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:455 en/mac.html:456 en/windows.html:451
+msgid "Now you should be back at the Key Management menu. Select Keyserver &rarr; Upload Public Keys and hit ok."
+msgstr "Nyní byste měli být zpět na menu Správa klíčů. Zvolte Keyserver &rarr; Nahrát klíč a klikněte na ok."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:456 en/mac.html:457 en/windows.html:452
+msgid "You've just effectively said \"I trust that Edward's public key actually belongs to Edward.\" This doesn't mean much because Edward isn't a real person, but it's good practice."
+msgstr "Nyní jste zveřejnili \"Důvěřuju, že Edwardův veřejný klíč skutečně patří Edwardovi.\" Edward není skutečná osoba, a proto to moc neznamená, ale je správné podepsat klíče ostatních lidí, které znáte."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:473 en/mac.html:474 en/windows.html:469
+msgid "Identifying keys: Fingerprints and IDs"
+msgstr "Identifikace klíčů: Otisk a ID"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:474 en/mac.html:475 en/windows.html:470
+msgid "People's public keys are usually identified by their key fingerprint, which is a string of digits like F357AA1A5B1FA42CFD9FE52A9FF2194CC09A61E8 (for Edward's key). You can see the fingerprint for your public key, and other public keys saved on your computer, by going to Enigmail &rarr; Key Management in your email program's menu, then right clicking on the key and choosing Key Properties. It's good practice to share your fingerprint wherever you share your email address, so that people can double-check that they have the correct public key when they download yours from a keyserver."
+msgstr "Veřejné klíče ostatních jsou běžně identifikovatelné pomocí jejich otisku, což je řetězec znaků jako F357AA1A5B1FA42CFD9FE52A9FF2194CC09A61E8 (pro Edwardův klíč). Otisk svého klíče můžete zjistit v nabídce Enigmail &rarr; Správa klíčů ve vašem emailovém programu, poté klikněte pravým tlačítkem a zvolte Vlastnosti klíče. Je správné předat váš otisk vždy, když někomu dáváte vaši adresu, takže lidé mohou důkladně ověřit, že si z keyserveru stáhli váš správný veřejný klíč."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:476 en/mac.html:477 en/windows.html:472
+msgid "You may also see public keys referred to by their key ID, which is simply the last eight digits of the fingerprint, like C09A61E8 for Edward. The key ID is visible directly from the Key Management window. This key ID is like a person's first name (it is a useful shorthand but may not be unique to a given key), whereas the fingerprint actually identifies the key uniquely without the possibility of confusion. If you only have the key ID, you can still look up the key (as well as its fingerprint), like you did in Step 3, but if multiple options appear, you'll need the fingerprint of the person to whom you are trying to communicate to verify which one to use."
+msgstr "Také je možné se setkat s odkazy na veřejný klíč pomocí ID klíče, což je jednoduše posledních osm čísel podpisu, jako například C09A61E8 pro Edwarda. ID klíče je vidět přímo v okně Správy klíčů. Toto ID klíče se dá přirovnat ke jménu osoby (což je užitečná zkratka, ale nemusí být vždy jedinečná), zatímco otisk skutečně určuje daný klíč jedinečně bez nebezpečí záměny. Pokud máte jen ID, můžete si klíč vyhledat (stejně jako jeho otisk), jako jste provedli v <a href=\"#section3\">Kroku 3</a>, ale obdržíte-li více výsledků vyhledávání je potřeba, aby vám osoba, se kterou se snažíte spojit, poskytla svůj otisk, ze kterého určíte, který klíč použít."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:484 en/mac.html:485 en/windows.html:480
+msgid "<em>Important:</em> What to consider when signing keys"
+msgstr "<em>Důležité:</em> Co mít na vědomí při podpisování klíčů"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:485 en/mac.html:486 en/windows.html:481
+msgid "Before signing a person's key, you need to be confident that it actually belongs to them, and that they are who they say they are. Ideally, this confidence comes from having interactions and conversations with them over time, and witnessing interactions between them and others. Whenever signing a key, ask to see the full public key fingerprint, and not just the shorter key ID. If you feel it's important to sign the key of someone you've just met, also ask them to show you their government identification, and make sure the name on the ID matches the name on the public key. In Enigmail, answer honestly in the window that pops up and asks \"How carefully have you verified that the key you are about to sign actually belongs to the person(s) named above?\""
+msgstr "Předtím, než podepíšete něčí klíč, musíte být přesvědčeni, že tento klíč skutečně patří této osobě a že je tato osoba tou, za kterou se vydává. V ideálním případě toto přesvědčení pramení z toho, že jste si s touto osobou nějakou dobu komunikovali a že jste byli svědky její interakce s ostatními. Kdykoli podepisujete klíč, zeptejte se jestli můžete vidět celý otisk jejího veřejného klíče, a ne pouze krátké ID. Pokud si myslíte, že je třeba podepsat klíč od někoho, koho jste právě potkali, zeptejte se také, jestli můžete vidět jejich úřední dokument, a ověřte, že se jméno na tomto dokumentu, shoduje, s tím na veřejném klíči. V Enigmail, odpovězte upřímně na otázkou \"Jak důkladně jste ověřili, že klíč, který podepisujete skutečně patří osobě, pod jejímž je jménem?\" v okně které se objeví."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:492 en/mac.html:493 en/windows.html:488
+msgid "Master the Web of Trust"
+msgstr "Porozuměte the síťi důvěry"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:493 en/mac.html:494 en/windows.html:489
+msgid "Unfortunately, trust does not spread between users the way <a href=\"http://fennetic.net/irc/finney.org/~hal/web_of_trust.html\">many people think</a>. One of best ways to strengthen the GnuPG community is to deeply <a href=\"https://www.gnupg.org/gph/en/manual/x334.html\">understand</a> the Web of Trust and to carefully sign as many people's keys as circumstances permit."
+msgstr "Bohužel, síť důvěry se nerozšířila mezi uživateli způsobem <a href=\"http://fennetic.net/irc/finney.org/~hal/web_of_trust.html\">jak si mnozí mysleli</a>. Jedna z nejlepších cest jak posílit komunitu GnuPG je dobře <a href=\"https://www.gnupg.org/gph/en/manual/x334.html\">pochopit</a> síť důvěry a precizně podepsat klíče od tolika lidí, od kolika je to možné."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dt>
+#: en/index.html:494 en/mac.html:495 en/windows.html:490
+msgid "Set ownertrust"
+msgstr "Nastavte důvěryhodnost majitele"
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/index.html:495 en/mac.html:496 en/windows.html:491
+msgid "If you trust someone enough to validate other people's keys, you can assign them an ownertrust level through Enigmails's key management window. Right click on the other person's key, go to the \"Select Owner Trust\" menu option, select the trustlevel and click OK. Only do this once you feel you have a deep understanding of the Web of Trust."
+msgstr "Pokud někomu důvěřujete, že je schopný ověřovat klíče dalších lidí, můžete pro jeho klíč nastavit míru důvěrohodnosti majitele přes Správu klíčů v okně Enigmail.  Klikněte pravým tlačítkem na klíč této osoby a v menu jděte na položku Vybrat důvěryhodnost majitele, poté nastavte míru důvěryhodnosti a klikněte na ok. Tento úkon provádějte pouze pokud dobře rozumíte síti důvěry."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/index.html:511 en/mac.html:512 en/windows.html:507
+msgid "<em>#5</em> Use it well"
+msgstr "<em>#5</em> Správné použití"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:512 en/mac.html:513 en/windows.html:508
+msgid "Everyone uses GnuPG a little differently, but it's important to follow some basic practices to keep your email secure. Not following them, you risk the privacy of the people you communicate with, as well as your own, and damage the Web of Trust."
+msgstr "Každý používá GnuPG trochu odlišně, ale je důležité se řídit několika základními pravidly pro zajištění bezpečnosti vaších emailů. Pokud se jimi neřídíte riskujete soukromí lidí, se kterými komunikujete, stejně jako vaše vlastní, a poškozujete Síť důvěry."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><p><img>
+#: en/index.html:518 en/mac.html:519 en/windows.html:514
+msgid "Section 5: Use it Well (1)"
+msgstr "Sekce 5: Správné použití (1)"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:521 en/mac.html:522 en/windows.html:517
+msgid "When should I encrypt? When should I sign?"
+msgstr "Kdy bych měl šifrovat? Kdy bych měl přidat podpis?"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:523 en/mac.html:524 en/windows.html:519
+msgid "The more you can encrypt your messages, the better. If you only encrypt emails occasionally, each encrypted message could raise a red flag for surveillance systems. If all or most of your email is encrypted, people doing surveillance won't know where to start. That's not to say that only encrypting some of your email isn't helpful -- it's a great start and it makes bulk surveillance more difficult."
+msgstr "Čím více zpráv budete šifrovat, tím lépe. Pokud budete šifrovat emaily pouze příležitostně, šifrované zprávy budou pro špionážní systémy podezřelé. Pokud budou šifrovány všechny vaše zprávy, lidé kteří se slídí po vašich datech nebudou vědět, kde začít. To ale neznamená, že šifrování pouze některých zpráv není užitečné -- je to dobrý začátek, který znesnadňuje masové špehování."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:524 en/mac.html:525 en/windows.html:520
+msgid "Unless you don't want to reveal your own identity (which requires other protective measures), there's no reason not to sign every message, whether or not you are encrypting. In addition to allowing those with GnuPG to verify that the message came from you, signing is a non-intrusive way to remind everyone that you use GnuPG and show support for secure communication. If you often send signed messages to people that aren't familiar with GnuPG, it's nice to also include a link to this guide in your standard email signature (the text kind, not the cryptographic kind)."
+msgstr "Pokud nechcete odhalit svou identitu (což ale vyžaduje další ochrané metody), není důvod nepodepsat každou zprávu bez ohledu na to, jestli je šifrovaná nebo ne. Krom toho, že lidé, kteří mají GnuPG mohou ověřit, že vaše zpráva skutečně přichází od vás, podpisování zpráv je nevnucující se metoda, jak každému připomenout, že používáte GnuPG a jak můžete ukázat, že podporujete bezpečnou komunikaci. Pokud budete posílat podepsané zprávy lidem kteří, nejsou seznámeni s GnuPG bude, často, dobré pokud také zmíníte odkaz na tuto příručku ve vašem emailovém podpisu (tom textovém, ne elektronickém)."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><p><img>
+#: en/index.html:532 en/mac.html:533 en/windows.html:528
+msgid "Section 5: Use it Well (2)"
+msgstr "Sekce 5: Správné použití (2)"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:535 en/mac.html:536 en/windows.html:531
+msgid "Be wary of invalid keys"
+msgstr "Buďte ostražití před neplatnými klíči"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:536 en/mac.html:537 en/windows.html:532
+msgid "GnuPG makes email safer, but it's still important to watch out for invalid keys, which might have fallen into the wrong hands. Email encrypted with invalid keys might be readable by surveillance programs."
+msgstr "GnuPG dělá email bezpečnějším, ale je stále důležité, abyste byli na pozoru před neplatnými klíči, které mohly padnout do špatných rukou. Email zašifrovaný s neplatným klíčem může být čitelný pro špionážní programy."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:537 en/mac.html:538 en/windows.html:533
+msgid "In your email program, go back to the first encrypted email that Edward sent you. Because Edward encrypted it with your public key, it will have a message from Enigmail at the top, which most likely says \"Enigmail: Part of this message encrypted.\""
+msgstr "Ve svém emailovém programu, najděte první šifrovaný email, který jste dostali of Edwarda. Protože Edward zašifroval email vašim veřejným klíčem, na horní liště pravděpodobně můžete vidět zprávu od Enigmail, která říká \"Enigmail: Část této zprávy je šifrovaná.\""
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:538 en/mac.html:539 en/windows.html:534
+msgid "<b>When using GnuPG, make a habit of glancing at that bar. The program will warn you there if you get an email encrypted with a key that can't be trusted.</b>"
+msgstr "<b>Když používáte GnuPG, zvykněte si vždy zběžně zkontrolovat tuto zprávu. Program vás bude varovat pokud dostanete zprávu zašifrovanou klíčem, kterému není možné důvěřovat.</b>"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:545 en/mac.html:546 en/windows.html:541
+msgid "Copy your revocation certificate to somewhere safe"
+msgstr "Zálohujte váš revokační certifikát na bezpečné místo"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:546 en/mac.html:547 en/windows.html:542
+msgid "Remember when you created your keys and saved the revocation certificate that GnuPG made? It's time to copy that certificate onto the safest digital storage that you have -- the ideal thing is a flash drive, disk, or hard drive stored in a safe place in your home, not on a device you carry with you regularly."
+msgstr "Vzpomeňte si, že když jste vytvořili vaše klíče, taky jste uložili revokační certifikát, který pro vás GnuPG vytvořil? Nyní přichází chvíle, kdy je třeba zkopírovat tento certifikát na co nejbezpečnější datové uložiště, které máte -- nejlepší je flash disk, disk, nebo pevný disk, který necháte uložený na bezpečném místě doma a nebudete ho s sebou běžně nosit."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:547 en/mac.html:548 en/windows.html:543
+msgid "If your private key ever gets lost or stolen, you'll need this certificate file to let people know that you are no longer using that keypair."
+msgstr "Pokud se váš soukromý klíč ztratí, nebo bude ukraden, budete potřebovat soubor s tímto certifikátem, aby ostatním dali navědomí, že už tento pár klíčů nepoužíváte."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/index.html:554 en/mac.html:555 en/windows.html:550
+msgid "<em>Important:</em> act swiftly if someone gets your private key"
+msgstr "<em>Důležité:</em> Jednejte rychle se někdo dostane k vašemu soukromému klíči"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/index.html:555 en/mac.html:556 en/windows.html:551
+msgid "If you lose your private key or someone else gets ahold of it (say, by stealing or cracking your computer), it's important to revoke it immediately before someone else uses it to read your encrypted email or forge your signature. This guide doesn't cover how to revoke a key, but you can follow these <a href=\"https://www.hackdiary.com/2004/01/18/revoking-a-gpg-key/\">instructions</a>. After you're done revoking, make a new key and send an email to everyone with whom you usually use your key to make sure they know, including a copy of your new key."
+msgstr "Pokud ztratíte váš soukromý klíč, nebo se dostane do rukou někoho dalšího (řekněme, že ho ukrade nebo se nabourá do vašeho počítače), je potřeba co nejrychleji odvolat jeho platnost (revokovat). Tato příručka se nezabývá tím jak odvolat platnost klíče, ale můžete se řídit těmito <a href=\"https://www.hackdiary.com/2004/01/18/revoking-a-gpg-key/\">instrukcemi</a>. Poté co jste klíč revokovali, vytvořte nový klíč a dejte vědět všem, s kým pravidelně používáte svůj klíč, že váš starý klíč je neplatný a rovněž přiložte váš nový klíč."
+
+#. type: Content of: <html><body><section><div><div><h3>
+#: en/index.html:575 en/mac.html:576 en/windows.html:571
+msgid "Webmail and GnuPG"
+msgstr "Webmail a GnuPG"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/index.html:576 en/mac.html:577 en/windows.html:572
+msgid "When you use a web browser to access your email, you're using webmail, an email program stored on a distant website. Unlike webmail, your desktop email program runs on your own computer. Although webmail can't decrypt encrypted email, it will still display it in its encrypted form. If you primarily use webmail, you'll know to open your email client when you receive a scrambled email."
+msgstr "Pokud používáte webový prohlížeč pro přístup k vašemu emailu, používáte webmail, emailový program uložený na vzdálené stránce. Narozdíl od webmailu, váš emailový program běží na vašem vlastním počítači. I když webmail nemůže rozluštit šifrované zprávy, stále je zobrazí v jejich šifrované podobě. Pokud používáte primárně webmail, budete vědět, že musíte otevřít váš emailový program, když obdržíte zašifrovanou zprávu."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/index.html:598 en/mac.html:600 en/windows.html:595
+msgid "<a href=\"next_steps.html\">Great job! Check out the next steps.</a>"
+msgstr "<a href=\"next_steps.html\">Dobrá práce! Podívejte se na další kroky.</a>"
+
+#. type: Content of: <html><body><script>
+#: en/index.html:656 en/mac.html:658 en/windows.html:653 en/workshops.html:275
+msgid "// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later var pkBaseURL = ((\"https:\" == document.location.protocol) ? \"https://piwik.fsf.org/\" : \"http://piwik.fsf.org/\"); document.write(unescape(\"%3Cscript src='\" + pkBaseURL + \"piwik.js' type='text/javascript'%3E%3C/script%3E\")); try { var piwikTracker = Piwik.getTracker(pkBaseURL + \"piwik.php\", 13); piwikTracker.trackPageView(); piwikTracker.enableLinkTracking(); } catch( err ) {} // @license-end"
+msgstr "// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later var pkBaseURL = ((\"https:\" == document.location.protocol) ? \"https://piwik.fsf.org/\" : \"http://piwik.fsf.org/\"); document.write(unescape(\"%3Cscript src='\" + pkBaseURL + \"piwik.js' type='text/javascript'%3E%3C/script%3E\")); try { var piwikTracker = Piwik.getTracker(pkBaseURL + \"piwik.php\", 13); piwikTracker.trackPageView(); piwikTracker.enableLinkTracking(); } catch( err ) {} // @license-end"
+
+#. type: Content of: <html><body><header><div><p>
+#: en/infographic.html:19 en/infographic.html:36
+msgid "&larr; Read the <a href=\"index.html\">full guide</a>"
+msgstr "&larr; Přečtěte si <a href=\"index.html\">celou příručku</a>"
+
+#. type: Content of: <html><body><header><div><h3><a>
+#: en/infographic.html:21
+msgid "<a href=\"https://fsf.org/share?u=https://u.fsf.org/zc&amp;t=How&nbsp;public-key encryption works. Infographic via %40fsf\">"
+msgstr "<a href=\"https://fsf.org/share?u=https://u.fsf.org/zc&amp;t=How&nbsp;public-key encryption works. Infographic via %40fsf\">"
+
+#. type: Content of: <html><body><header><div><h3>
+#: en/infographic.html:29
+msgid "&nbsp; Share our infographic </a> with the hashtag #EmailSelfDefense"
+msgstr "&nbsp; Sdílejte náš informační leták </a> s hashtagem #EmailSelfDefense"
+
+#. type: Attribute 'alt' of: <html><body><header><div><p><img>
+#: en/infographic.html:35
+msgid "View &amp; share our infographic"
+msgstr "Prohlédněte si a sdílejte náš informační leták "
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/mac.html:46 en/windows.html:46 en/workshops.html:44
+msgid "<a href=\"index.html\">GNU/Linux</a>"
+msgstr "<a href=\"index.html\" class=\"current\">GNU/Linux</a>"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/mac.html:49
+msgid "<a href=\"mac.html\" class=\"current\">Mac OS</a>"
+msgstr "<a href=\"mac.html\">Mac OS</a>"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/mac.html:113
+msgid "This guide relies on software which is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">freely licensed</a>; it's completely transparent and anyone can copy it or make their own version. This makes it safer from surveillance than proprietary software (like Mac OS). To defend your freedom as well as protect yourself from surveillance, we recommend you switch to a free software operating system like GNU/Linux. Learn more about free software at <a href=\"https://u.fsf.org/ys\">fsf.org</a>."
+msgstr "Tato příručka je založena na software, který je poskytován <a href=\"https://www.gnu.org/philosophy/free-sw.html\">pod svobodnou licencí</a>; práce těchto programů je naprosto transparentní a kdokoli může obdržet kopii, nebo vytvořit svou vlastní verzi. Toto zaručuje větší bezpečnost proti špehování než nesvobodný software (jako například Windows). O svobodném software se můžete dozvědět více na stránce <a href=\"https://u.fsf.org/ys\">fsf.org</a>."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/mac.html:114 en/windows.html:114
+msgid "To get started, you'll need the IceDove desktop email program installed on your computer. For your system, IceDove may be known by the alternate name \"Thunderbird.\" Email programs are another way to access the same email accounts you can access in a browser (like Gmail), but provide extra features."
+msgstr "Většina operačních systémů GNU/Linux má GnuPG již připraven k použití, takže jej není potřeba stahovat. Předtím, než nastavíte GnuPG, musíte na váš počítač nainstalovat emailový program IceDove. Většína distribucí GNU/Linux má IceDove již nainstalován, ačkoli může být pod alternativním názvem \"Thunderbird.\" Emailové programy jsou jiný způsob pro přihlášení na stejný emailovému účtu, ke kterému se můžete připojovat přes prohlížeč (např. Gmail), ale poskytují další funkce."
+
+#. type: Content of: <html><body><section><div><div><div><div><dl><dd>
+#: en/mac.html:132 en/windows.html:132
+msgid "You can launch the wizard yourself, but the menu option for doing so is named differently in each email programs. The button to launch it will be in the program's main menu, under \"New\" or something similar, titled something like \"Add account\" or \"New/Existing email account.\""
+msgstr "Můžete spustit průvodce sami, ale položka v menu se jmenuje jinak v každém emailovém programu. Tlačítko pro spuštění je v hlavním menu programu, pod položkou \"Nový\" nebo nějakou podobnou, nazvaný něčím podobným jako \"Přidat účet\" nebo \"Nový/Existující emailový účet.\""
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/mac.html:147
+msgid "<em>Step 1.b</em> Get GnuPG by downloading GPGTools"
+msgstr "<em>Krok 1.b</em> Stáhněte si GnuPG s programem GPGTools"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/mac.html:148
+msgid "GPGTools is a software package that includes GnuPG. <a href=\"https://gpgtools.org/#gpgsuite\">Download</a> and install it, choosing default options whenever asked. After it's installed, you can close any windows that it creates."
+msgstr "GPGTools je balíček software, který obsahuje GnuPG. <a href=\"https://gpgtools.org/#gpgsuite\">Stáhněte</a> a nainstalujte ho. Ponechte základním nastavením u všech položek. Poté, co jste ho nainstalovali, můžete zavřít všechna okna, která byla otevřena."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><ul><li><img>
+#: en/mac.html:157 en/windows.html:157
+msgid "Step 1.C: Tools -> Add-ons"
+msgstr "Krok 1.C: Nástroje -> Doplňky"
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><ul><li><img>
+#: en/mac.html:158 en/windows.html:158
+msgid "Step 1.C: Search Add-ons"
+msgstr "Krok 1.C: Vyhledejte Doplňky"
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><ul><li><img>
+#: en/mac.html:159 en/windows.html:159
+msgid "Step 1.C: Install Add-ons"
+msgstr "Krok 1.A: Průvodce nastavením"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/mac.html:163 en/windows.html:163
+msgid "<em>Step 1.c</em> Install the Enigmail plugin for your email program"
+msgstr "<em>Krok 1.b</em>Nainstalujte Enigmail plugin pro svůj emailový program"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/mac.html:164 en/windows.html:164
+msgid "In your email program's menu, select Add-ons (it may be in the Tools section). Make sure Extensions is selected on the left. Do you see Enigmail? if so, skip this step."
+msgstr "V menu vašeho emailového programu, vyberte Add-ons (pravděpodobně se nachází v sekci Nástroje). Ověřte, že nalevo jsou vybrané Extensions. Používáte Enigmail? Pokud ano, přeskočte tento krok."
+
+#. type: Content of: <html><body><header><div><h1>
+#: en/next_steps.html:21
+msgid "Great job!"
+msgstr "Dobrá práce"
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/next_steps.html:35
+msgid "<em>#6</em> Next steps"
+msgstr "<em>#6</em> Další postup"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/next_steps.html:36
+msgid "You've now completed the basics of email encryption with GnuPG, taking action against bulk surveillance. These next steps will help make the most of the work you've done."
+msgstr "Nyní jste dokončili základy emailového šifrování s GnuPG, čímž jste přijali opatření proti masovému špehování. Tyto další kroky vám pomůžou co nejvíce využít vaši vynaloženou práci."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/next_steps.html:46
+msgid "Join the movement"
+msgstr "Připojte se k našemu hnutí"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:48
+msgid "You've just taken a huge step towards protecting your privacy online. But each of us acting alone isn't enough. To topple bulk surveillance, we need to build a movement for the autonomy and freedom of all computer users. Join the Free Software Foundation's community to meet like-minded people and work together for change."
+msgstr "Právě jste udělali obrovský krok pro ochranu vašeho on-line soukromí. Ale nestačí, když každý z nás jedná, samostatně. K svrhnutí hormadného špehování musíme vybudovat hnutí za autonomii a svobodu všech uživatelů počítačů. Připojte se ke komunitě Nadace pro Svobodný software, seznamte se s podobně smýšlejícími lidmi a pracujte s námi na změně."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:63
+msgid "<small>Read <a href=\"https://www.fsf.org/twitter\">why GNU Social and Pump.io are better than Twitter</a>, and <a href=\"http://www.fsf.org/facebook\">why we don't use Facebook</a>.</small>"
+msgstr "<small>Přečtěte si <a href=\"https://www.fsf.org/twitter\">proč je GNU Social a Pump.io lepší než Twitter</a>, a <a href=\"http://www.fsf.org/facebook\">proč nepoužíváme Facebook</a>.</small>"
+
+#. type: Content of: <html><body><section><div><div><div><div><p>
+#: en/next_steps.html:66
+msgid "Low-volume mailing list"
+msgstr "Emailový občasník"
+
+#. type: Content of: <html><body><section><div><div><div><div><form>
+#: en/next_steps.html:69
+msgid "<input type=\"text\" placeholder=\"Type your email...\" name=\"email-Primary\" id=\"frmEmail\" /> <input type=\"submit\" value=\"Add me\" name=\"_qf_Edit_next\" /> <input type=\"hidden\" value=\"https://emailselfdefense.fsf.org/en/confirmation.html\" name=\"postURL\" /> <input type=\"hidden\" value=\"1\" name=\"group[25]\" /> <input type=\"hidden\" value=\"https://my.fsf.org/civicrm/profile?reset=1&amp;gid=391\" name=\"cancelURL\" /> <input type=\"hidden\" value=\"Edit:cancel\" name=\"_qf_default\" />"
+msgstr "<input type=\"text\" placeholder=\"Type your email...\" name=\"email-Primary\" id=\"frmEmail\" /> <input type=\"submit\" value=\"Add me\" name=\"_qf_Edit_next\" /> <input type=\"hidden\" value=\"https://emailselfdefense.fsf.org/en/confirmation.html\" name=\"postURL\" /> <input type=\"hidden\" value=\"1\" name=\"group[25]\" /> <input type=\"hidden\" value=\"https://my.fsf.org/civicrm/profile?reset=1&amp;gid=391\" name=\"cancelURL\" /> <input type=\"hidden\" value=\"Edit:cancel\" name=\"_qf_default\" />"
+
+#. type: Content of: <html><body><section><div><div><div><div><p>
+#: en/next_steps.html:76
+msgid "<small>Read our <a href=\"https://my.fsf.org/donate/privacypolicy.html\">privacy policy</a>.</small>"
+msgstr "<small>Přečtěte si <a href=\"https://my.fsf.org/donate/privacypolicy.html\">pravidla ochrany soukromí</a>.</small>"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/next_steps.html:86
+msgid "Bring Email Self-Defense to new people"
+msgstr "Přineste emailovou sebeobranu dalším lidem."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:88
+msgid "Understanding and setting up email encryption is a daunting task for many. To welcome them, make it easy to find your public key and offer to help with encryption. Here are some suggestions:"
+msgstr "Pochopení a nastavení emailového šifrování je pro mnohé náročný úkol. Abychom je přivítali, usnadněte jim najít váš veřejný klíč a nabídněte jim pomoc se šifrováním. Zde je několik návrhů:"
+
+#. type: Content of: <html><body><section><div><div><div><ul><li>
+#: en/next_steps.html:91
+msgid "Lead an Email Self-Defense workshop for your friends and community, using our <a href=\"workshops.html\">teaching guide</a>."
+msgstr "Veďte workshop emailové sebeobrany pro své přátele a známé, použijte naši <a href=\"workshops.html\">učebnici</a>."
+
+#. type: Content of: <html><body><section><div><div><div><ul><li>
+#: en/next_steps.html:93
+msgid "Use <a href=\"https://fsf.org/share?u=https://u.fsf.org/zb&amp;t=Encrypt with me using Email Self-Defense %40fsf\">our sharing page</a> to compose a message to a few friends and ask them to join you in using encrypted email. Remember to include your GnuPG public key fingerprint so they can easily download your key."
+msgstr "Použijte <a href=\"https://fsf.org/share?u=https://u.fsf.org/zb&amp;t=Encrypt with me using Email Self-Defense %40fsf\">naši stránku pro sdílení</a> pro napsání zprávy několika přátelům a vyzvěte je, aby se k vám přidali v používání šifrovaného emailu. Nezapomeňte přiložit digitální otisk vášeho veřejného klíče GnuPG aby si mohli jednoduše stáhnout váš klíč."
+
+#. type: Content of: <html><body><section><div><div><div><ul><li>
+#: en/next_steps.html:95
+msgid "Add your public key fingerprint anywhere that you normally display your email address. Some good places are: your email signature (the text kind, not the cryptographic kind), social media profiles, blogs, Websites, or business cards. At the Free Software Foundation, we put ours on our <a href=\"https://fsf.org/about/staff\">staff page</a>."
+msgstr "Připojte váš digitální otisk vašeho veřejného klíče všude, kde běžně zobrazujete vaši emailovou adresu. Některé z vhodných míst jsou: váš emailový podpis (ten textový, ne elektronický), profil na sociálních médiích, blog, webové stráky, nebo vizitka. V Nadaci pro svobodný sofware, vkládáme svůj na naši <a href=\"https://fsf.org/about/staff\">zaměstnaneckou stránku</a>."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/next_steps.html:109
+msgid "Protect more of your digital life"
+msgstr "Chraňte více svůj digitální život"
+
+# Tento překlad potřebuje vylepšit.
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:111
+msgid "Learn surveillance-resistant technologies for instant messages, hard drive storage, online sharing, and more at <a href=\"https://directory.fsf.org/wiki/Collection:Privacy_pack\"> the Free Software Directory's Privacy Pack</a> and <a href=\"https://prism-break.org\">prism-break.org</a>."
+msgstr "Naučte se o technologiích pro vzdorování špehování v \"chatových\" zprávách, datech uložených na pevných discích a sdílených online, a mohých dalších v <a href=\"https://directory.fsf.org/wiki/Collection:Privacy_pack\"> softwarových balíčku pro soukromí ve složce pro svobodný software</a> and <a href=\"https://prism-break.org\">prism-break.org</a>."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:111
+msgid "If you are using Windows, Mac OS or any other proprietary operating system, we recommend you switch to a free software operating system like GNU/Linux. This will make it much harder for attackers to enter your computer through hidden back doors. Check out the Free Software Foundation's <a href=\"http://www.gnu.org/distros/free-distros.html\">endorsed versions of GNU/Linux.</a>"
+msgstr "Pokud používáte Windows, Mac OS nebo jiný proprietární operační system, doporučujeme vám přejít na svobodný operační systém jako je GNU/Linux. Toto ztíží  útočníkům proniknutí do vašeho systému skrze skryté zadní vrátka. Podívejte se na seznam <a href=\"http://www.gnu.org/distros/free-distros.html\">verzí GNU/Linux schválených.</a> Nadací pro svobodný software."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/next_steps.html:119
+msgid "Optional: Add more email protection with Tor"
+msgstr "Volitelné: Chraňte svůj email ještě více pomocí Tor"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:120
+msgid "<a href=\"https://www.torproject.org/about/overview.html.en\">The Onion Router (Tor) network</a> wraps Internet communication in multiple layers of encryption and bounces it around the world several times. When used properly, Tor confuses surveillance field agents and the global surveillance apparatus alike. Using it simultaneously with GnuPG's encryption will give you the best results."
+msgstr "<a href=\"https://www.torproject.org/about/overview.html.en\">Síť The Onion Router (Tor)</a> schová vaši Internetovou komunikaci v několika vrstvách šifrování a několik krát ji přepošle kolem světa. Pokud je použita správně, Tor zmate špehy špionážních služeb a taky systémy globálního dozoru. Použití šifrování Tor a GnuPG vám poskytne nejlepší ochranu."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:121
+msgid "To have your email program send and receive email over Tor, install the <a href=\"https://addons.mozilla.org/en-us/thunderbird/addon/torbirdy/\">Torbirdy plugin</a> the same way you installed Enigmail, by searching for it through Add-ons."
+msgstr "Aby váš program posílal a přijímal emaily přes síť Toru, nainstalujte <a href=\"https://addons.mozilla.org/en-us/thunderbird/addon/torbirdy/\">Torbirdy plugin</a> stejným způsobem jako jste nainstalovali Enigmail, pomocí vyhledávání v Doplňcích."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:123
+msgid "Before beginning to check your email over Tor, make sure you understand <a href=\"https://www.torproject.org/docs/faq.html.en#WhatProtectionsDoesTorProvide\">the security tradeoffs involved</a>. This <a href=\"https://www.eff.org/pages/tor-and-https\">infographic</a> from our friends at the Electronic Frontier Foundation demonstrates how Tor keeps you secure."
+msgstr "Předtím než budete stahovat váš email přes Tor, musíte porozumět <a href=\"https://www.torproject.org/docs/faq.html.en#WhatProtectionsDoesTorProvide\">bezpečnostní důsledky</a>. Tento <a href=\"https://www.eff.org/pages/tor-and-https\">informační leták</a> od našich známých z Electronic Frontier Foundation vám ukáže jak vás Tor udrží v bezpečí."
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><div><p><img>
+#: en/next_steps.html:130
+msgid "Section 6: Next Steps"
+msgstr "Sekce 6: Další kroky"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:130
+msgid "&larr; <a href=\"index.html\">Return to the guide</a>"
+msgstr "&larr; <a href=\"index.html\">Zpět na příručku</a>"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/next_steps.html:133
+msgid "Make Email Self-Defense tools even better"
+msgstr "Vylepšete nástroje pro emailovou sebeobranu ještě více"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:134
+msgid "<a href=\"https://libreplanet.org/wiki/GPG_guide/Public_Review\">Leave feedback and suggest improvements to this guide</a>. We welcome translations, but we ask that you contact us at <a href=\"mailto:campaigns@fsf.org\">campaigns@fsf.org</a> before you start, so that we can connect you with other translators working in your language."
+msgstr "<a href=\"https://libreplanet.org/wiki/GPG_guide/Public_Review\">Dejte nám zpětnou vazbu a návrhy pro vylepšení této příručky</a>. Přijímáme překlady, ale dříve než začnete, prosím kontaktujte nás na <a href=\"mailto:campaigns@fsf.org\">campaigns@fsf.org</a>, abychom vás mohli spojit s dalšími lidmi, kteří pracujou na překladu do vašeho jazyka."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:136
+msgid "If you like programming, you can contribute code to <a href=\"https://www.gnupg.org/\">GnuPG</a> or <a href=\"https://www.enigmail.net/home/index.php\">Enigmail</a>."
+msgstr "Pokud rádi programujete, můžete přispět ke kódování <a href=\"https://www.gnupg.org/\">GnuPG</a> nebo <a href=\"https://www.enigmail.net/home/index.php\">Enigmailu</a>."
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/next_steps.html:138
+msgid "To go the extra mile, support the Free Software Foundation so we can keep improving Email Self-Defense, and make more tools like it."
+msgstr "Chcete-li poskytnout něco navíc, potpořte Nadaci pro svobodný software, čímž nám umožníte vylepšit emailovou sebeobranu, a mnohé další podobné nástroje."
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/windows.html:52
+msgid "<a href=\"windows.html\" class=\"current\">Windows</a>"
+msgstr "<a href=\"index.html\" class=\"current\">GNU/Linux</a>"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/windows.html:113
+msgid "This guide relies on software which is <a href=\"https://www.gnu.org/philosophy/free-sw.html\">freely licensed</a>; it's completely transparent and anyone can copy it or make their own version. This makes it safer from surveillance than proprietary software (like Windows). To defend your freedom as well as protect yourself from surveillance, we recommend you switch to a free software operating system like GNU/Linux. Learn more about free software at <a href=\"https://u.fsf.org/ys\">fsf.org</a>."
+msgstr "Tato příručka je založena na software, který je poskytován <a href=\"https://www.gnu.org/philosophy/free-sw.html\">pod svobodnou licencí</a>; práce těchto programů je naprosto transparentní a kdokoli může obdržet kopii, nebo vytvořit svou vlastní verzi. Toto zaručuje větší bezpečnost proti špehování než nesvobodný software (jako například Windows). O svobodném software se můžete dozvědět více na stránce <a href=\"https://u.fsf.org/ys\">fsf.org</a>."
+
+# Tento překlad je podobný verzi pro Mac OS
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/windows.html:147
+msgid "<em>Step 1.b</em> Get GnuPG by downloading GPG4Win"
+msgstr "<em>Krok 1.b</em> Stáhněte si  GnuPG s programem GPG4Win"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/windows.html:148
+msgid "GPG4Win is a software package that includes GnuPG. <a href=\"http://files.gpg4win.org/gpg4win-2.2.1.exe\">Download</a> and install it, choosing default options whenever asked. After it's installed, you can close any windows that it creates."
+msgstr "GPG4Win je balíček software který zahrnuje GnuPG. <a href=\"http://files.gpg4win.org/gpg4win-2.2.1.exe\">Stáhněte</a> a nainstalujte ho. Ponechte základním nastavením u všech položek. Poté, co jste ho nainstalovali, můžete zavřít všechna okna, která byla otevřena."
+
+#. type: Content of: <html><head><title>
+#: en/workshops.html:4
+msgid "Email Self-Defense - Teach your friends!"
+msgstr "Emailová sebeobrana -- Vzdělejte své známé!"
+
+#. type: Content of: <html><body><header><div><ul><li>
+#: en/workshops.html:52
+msgid "<a href=\"workshops.html\" class=\"current\">Teach your friends</a>"
+msgstr "<a href=\"workshops.html\" class=\"current\">Vzdělejte své známé!</a>"
+
+#. type: Content of: <html><body><header><div><div><div><p>
+#: en/workshops.html:72
+msgid "We want to translate this guide into more languages, and make a version for encryption on mobile devices. Please donate, and help people around the world take the first step towards protecting their privacy with free software."
+msgstr "Rádi bychom přeložili tuto příručku do co nejvíce jazyků a vydali verzi pro šifrování na mobilních zařízeních. Prosíme přispějte a pomozte dalším lidem kolem světa udělat první krok pro ochranu jejich soukromí za pomocí svobodného software."
+
+#. type: Content of: <html><body><header><div><div><p><a>
+#: en/workshops.html:86
+msgid "<a id=\"infographic\" href=\"https://emailselfdefense.fsf.org/en/infographic.html\">"
+msgstr "<a id=\"infographic\" href=\"https://emailselfdefense.fsf.org/en/infographic.html\">"
+
+#. type: Attribute 'alt' of: <html><body><header><div><div><p><a><img>
+#: en/workshops.html:86
+msgid "View &amp; share our infographic →"
+msgstr "Prohlédněte si a sdílejte náš informační leták →"
+
+#. type: Content of: <html><body><header><div><div><p>
+#: en/workshops.html:86
+msgid "</a> Understanding and setting up email encryption sounds like a daunting task to many people. That's why helping your friends with GnuPG plays such an important role in helping spread encryption. Even if only one person shows up, that's still one more person using encryption who wasn't before. You have the power to help your friends keep their digital love letters private, and teach them about the importance of free software. If you use GnuPG to send and receive encrypted email, you're a perfect candidate for leading a workshop!"
+msgstr "</a> Pochopení a nastavení emailového šifrování je pro mnohé náročný úkol. Proto pomoc vašim známým s GnuPG hraje tak významnou roli pro rozšíření šifrování. I kdyby na workshop přišla pouze jedna osoba, je to stále jedna osoba navíc požívající šifrování, která nebyla dříve. Máte možnost pomoct vašim přátelům udržet jejich digitální milostné dopisy soukromé, a naučit je o důležitosti svobodného software. Pokud sami používáte GnuPG pro posílání a přijímání šifrovaných emailů, jste skvělý kandidát pro vedení workshopu!"
+
+#. type: Attribute 'alt' of: <html><body><section><div><div><p><img>
+#: en/workshops.html:100
+msgid "A small workshop among friends"
+msgstr "Malý workshop mezi přáteli"
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/workshops.html:101
+msgid "<em>#1</em> Get your friends or community interested"
+msgstr "<em>#1</em> Získejte zájem vašich přátel a známých"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:102
+msgid "If you hear friends grumbling about their lack of privacy, ask them if they're interested in attending a workshop on Email Self-Defense. If your friends don't grumble about privacy, they may need some convincing. You might even hear the classic \"if you've got nothing to hide, you've got nothing to fear\" argument against using encryption."
+msgstr "Pokud si vaši známí stěžují na nedostatek soukromí, zeptejte se jestli by měli zájem navštívit workshop na emailovou sebeobranu. Pokud se vaši známí o své soukromí neobávají, budete potřeba je přesvědčit. Možná uslyšíte klasický argument proti použití šifrování: \"pokud nemáš co skrývat, nemusíš mít strach.\""
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:103
+msgid "Here are some talking points you can use to help explain why it's worth it to learn GnuPG. Mix and match whichever you think will make sense to your community:"
+msgstr "Tady je několik stanovisek, které vám mohou pomoci vysvětlit, proč má smysl naučit se GnuPG. Vyberte ty, o kterých si myslíte, že jsou smysluplné pro vaši komunitu:"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/workshops.html:116
+msgid "Strength in numbers"
+msgstr "V množství je síla"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/workshops.html:117
+msgid "Each person who chooses to resist mass surveillance with encryption makes it easier for others to resist as well. People normalizing the use of strong encryption has multiple powerful effects: it means those who need privacy the most, like potential whistle-blowers and activists, are more likely to learn about encryption. More people using encryption for more things also makes it harder for surveillance systems to single out those that can't afford to be found, and shows solidarity with those people."
+msgstr "Každá osoba která se rozhodne vzdorovat masovému špehování pomocí šifrování ulehčuje ostatním vzorovat také. Když se využití emailového šifrování stane normální, bude to mít významné důsledky: lidé, kteří potřebujou soukromí nejvíce, jako potencionální oznamovatelé trestných činů, whitstlebloweři a aktivisti, se seznámí s šifrováním s mnohem větší pravděpodobností. Čím více lidí, používá v více případech šifrování, tím složitější to je pro špionážní systemy vyčlenit ty, kteří si nemohou dovolit být odhaleni. Použití šifrování ukazuje solidaritu s těmito lidmi."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/workshops.html:121
+msgid "People you respect may already be using encryption"
+msgstr "Lidé, které respektujete již možná používají šifrování"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/workshops.html:122
+msgid "Many journalists, whistleblowers, activists, and researchers use GnuPG, so your friends might unknowingly have heard of a few people who use it already. You can search for \"BEGIN PUBLIC KEY BLOCK\" + keyword to help make a list of people and organizations who use GnuPG whom your community will likely recognize."
+msgstr "Spousta novinářů, whistlebolwerů, aktivistů a výzkumníků používá GnuPG, tak vaši známí možná slyšeli o několika lidech, kteří už GnuPG používají. Můžete si vyhledat \"BEGIN PUBLIC KEY BLOCK\" + klíčové slovo, což vám pomůže vytvořit seznam lidí a organizací, které používají GnuPG a které vaši známí pravděpodobně znájí."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/workshops.html:126
+msgid "Respect your friends' privacy"
+msgstr "Respektujte soukromí vašich známých"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/workshops.html:127
+msgid "There's no objective way to judge what constitutes privacy-sensitive correspondence. As such, it's better not to presume that just because you find an email you sent to a friend innocuous, your friend (or a surveillance agent, for that matter!) feels the same way. Show your friends respect by encrypting your correspondence with them."
+msgstr "Neexistuje objektivní způsob, jak rozhodnout, co zahrnuje citlivou soukromou korespondenci. Proto, i když si můžete myslet, že email, který posíláte je neškodný, je lepší nepředpokládat, že to samé si bude myslet i váš známý (nebo špión, či počítačový kriminálník, který se k emailu dostane). Projevte vašim známým respekt tím, že korespondenci s nimi zašifrujete."
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/workshops.html:132
+msgid "Privacy technology is normal in the physical world"
+msgstr "Předměty pro ochranu soukromí jsou běžné ve fyzickém světě"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/workshops.html:133
+msgid "In the physical realm, we take window blinds, envelopes, and closed doors for granted as ways of protecting our privacy. Why should the digital realm be any different?"
+msgstr "Ve fyzickém světě považujeme závěsy na oknech, obálky na dopisech a zavřené dveře za běžný způsob ochrany našeho soukromí. Proč by to mělo být jiné v digitální sféře?"
+
+#. type: Content of: <html><body><section><div><div><div><h3>
+#: en/workshops.html:137
+msgid "We shouldn't have to trust our email providers with our privacy"
+msgstr "Neměli bychom důvěřovat, že poskytovatelé našich emailových účtů dokáží ochránít naše soukromí"
+
+#. type: Content of: <html><body><section><div><div><div><p>
+#: en/workshops.html:138
+msgid "Some email providers are very trustworthy, but many have incentives not to protect your privacy and security. To be empowered digital citizens, we need to build our own security from the bottom up."
+msgstr "Někteří poskytovatelé emalilů jsou velmi důvěryhodní, ale mnoho z nich těží z toho, že naše soukromí a bezpečnost nechrání. Abychom se stali schopnými občany silné digitální společnosti, musíme budovat naši vlastní bezpečnost od základů."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/workshops.html:152
+msgid "<em>#2</em> Plan The Workshop"
+msgstr "<em>#2</em> Naplánujte workshop"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:153
+msgid "Once you've got at least one interested friend, pick a date and start planning out the workshop. Tell participants to bring their computer and ID (for signing each other's keys). If you'd like to make it easy for the participants to use Diceware for choosing passwords, get a pack of dice beforehand. Make sure the location you select has an easily accessible Internet connection, and make backup plans in case the connection stops working on the day of the workshop. Libraries, coffee shops, and community centers make great locations. Try to get all the participants to set up an Enigmail-compatible email client before the event. Direct them to their email provider's IT department or help page if they run into errors."
+msgstr "Jakmile budete mít alespoň jednoho zájemce o workshop, vyberte datum a začněte plánovat workshop. Řekněte účastníkům, aby si přinesli své vlastní počítače a úřední doklad (pro ověření údajů při vzájemném podpisování klíčů). Pokud chcete účastníkům ulehčit použití metody Diceware pro výběr hesel, připravte si balíček kostek. Ověřte, že místo, které jste vybrali ma snadno dostupné internetové připojení, ale mějte záložní plán pokud internet přestane fungovat v den workshopu. Knihovny, kavárny a komunitní centra jsou výborné místa, ze kterých můžete vybírat. Řekněte všem účastníkům, aby si zkusili nastavit emailový program kompatibilní s Enigmailem před workshopem. Odkažte je na podporu poskytovatele jejich emailového účtu nebo nápovědu v případě, že narazí na chyby."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:154
+msgid "Estimate that the workshop will take at least forty minutes plus ten minutes for each participant. Plan extra time for questions and technical glitches."
+msgstr "Odhadovaná délka workshopu je nejméně čtyřicet minut, za každého účastníka navíc připočtěte deset minut. Vyhraďte také nějaký čas také na otázky a pro případ technických závad."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:155
+msgid "The success of the workshop requires understanding and catering to the unique backgrounds and needs of each group of participants. Workshops should stay small, so that each participant receives more individualized instruction. If more than a handful of people want to participate, keep the facilitator to participant ratio high by recruiting more facilitators, or by facilitating multiple workshops. Small workshops among friends work great!"
+msgstr "Úspěch vašeho workshopu vyžaduje porozumnění a přispůsobení se různé míře znalostí a potřeb každé skupiny účastníků. Workshopy by měly být malé, aby každý z účastníků obdržel dostatek individualizovaných pokynů. Pokud se chce zúčastnit více než malá skupina lidí sežeňte více instruktorů nebo zorganizujte více workshopů, abyste udželi vysoký podíl instruktorů na účastníky. Malé workshopy mezi přáteli fungují dobře."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/workshops.html:168
+msgid "<em>#3</em> Follow the guide as a group"
+msgstr "<em>#3</em> Postupujte podle příručky s celou skupinou"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:169
+msgid "Work through the Email Self-Defense guide a step at a time as a group. Talk about the steps in detail, but make sure not to overload the participants with minutia. Pitch the bulk of your instructions to the least tech-savvy participants. Make sure all the participants complete each step before the group moves on to the next one. Consider facilitating secondary workshops afterwards for people that had trouble grasping the concepts, or those that grasped them quickly and want to learn more."
+msgstr "Projděte příručkou emailové sebeobrany krok za krokem společně s celou skupinou. Podrobně vysvětlete všechny kroky, ale na druhou stranu nepřetěžujte účastníky nepodstatnými detaily. Nalaďte složitost svých pokynů pro technicky nejméně zdatné účastníky. Ověřte, že všichni účastníci dokončili každý krok, před tím, než skupina postoupí k dalšímu kroku. Zvažte, jestli byste měli vést pozdější workshop pro lidi, kteří mají potíže porozumět pomům, nebo pro ty, kteří jim porozumí rychle a rádi by se dozvěděli více."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:170
+msgid "In <a href=\"index.html#section2\">Section 2</a> of the guide, make sure the participants upload their keys to the same keyserver so that they can immediately download each other's keys later (sometimes there is a delay in synchronization between keyservers). During <a href=\"index.html#section3\">Section 3</a>, give the participants the option to send test messages to each other instead of or as well as Edward. Similarly, in <a href=\"index.html#section4\">Section 4</a>, encourage the participants to sign each other's keys. At the end, make sure to remind people to safely back up their revocation certificates."
+msgstr "V <a href=\"index.html#section2\">Sekci 2</a> této příručky, ověřte, že účastníci nahrají bezodkladně svůj klíč na keyserver, aby mohli později stáhnout klíče ostatních (občas synchronizace mezi keyservery chvíli trvá). Během <a href=\"index.html#section3\">Sekce 3</a>, jim dejte možnost poslat si testovací zprávu mezi sebou, namísto nebo navíc ke zprávě pro Edwarda. Stejně, v <a href=\"index.html#section4\">Sekci 4</a>, povzbuďte účastníky, aby vzájemně podepsali své klíče. Nakonec jim připomeňte, aby bezpečně zálohovali své revokační certifikáty."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/workshops.html:182
+msgid "<em>#4</em> Explain the pitfalls"
+msgstr "<em>#4</em> Vysvětlete nástrahy"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:183
+msgid "Remind participants that encryption works only when it's explicitly used; they won't be able to send an encrypted email to someone who hasn't already set up encryption. Also remind participants to double-check the encryption icon before hitting send, and that subjects and timestamps are never encrypted."
+msgstr "Připomeňte účastníkům, že šifrování funguje jen pokud je výslovně použité; není možné poslat šifrovaný email někomu, kdo si jestě nenastavil šifrovací klíče. Také připomeňte, aby před odesláním zprávy znova zkontrolovali, že je šifrování zapnuto, a že předmět zprávy a časové razítka nejsou nikdy šifrovány."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:184
+msgid "Explain the <a href=\"https://www.gnu.org/proprietary/proprietary.html\">dangers of running a proprietary system</a> and advocate for free software, because without it, we can't <a href=\"https://www.fsf.org/bulletin/2013/fall/how-can-free-software-protect-us-from-surveillance\">meaningfully resist invasions of our digital privacy and autonomy</a>."
+msgstr "Vysvětlete <a href=\"https://www.gnu.org/proprietary/proprietary.html\">nebezpečí používání proprietarního systému</a> a vybídněte je k používání svobodného software, protože bez toho nemůžeme <a href=\"https://www.fsf.org/bulletin/2013/fall/how-can-free-software-protect-us-from-surveillance\">smysluplně vzdorovat invazi našeho digitálního soukromí a autonomie</a>."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/workshops.html:198
+msgid "<em>#5</em> Share additional resources"
+msgstr "<em>#5</em> Sdílejte další zdroje informací"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:199
+msgid "GnuPG's advanced options are far too complex to teach in a single workshop. If participants want to know more, point out the advanced subsections in the guide and consider organizing another workshop. You can also share <a href=\"https://www.gnupg.org/documentation/index.html\">GnuPG's</a> and <a href=\"https://www.enigmail.net/documentation/index.php\">Enigmail's</a> official documentation and mailing lists. Many GNU/Linux distribution's Web sites also contain a page explaining some of GnuPG's advanced features."
+msgstr "Pokročilé možnosti GnuPG jsou příliš složité na to, aby je bylo možné vysvětlit během jednoho workshopu. Pokud účastníci chějí vědět více, odkažte je na sekce pro pokročilé v příručce a zvažte, zda uspořádat další workshop. Můžete také sdílet oficiální dokumentaci a emailové listy <a href=\"https://www.gnupg.org/documentation/index.html\">GnuPG</a> a <a href=\"https://www.enigmail.net/documentation/index.php\">Enigmailu</a>. Spousta webů GNU/Linux distribucí rovněž obsahuje stránky, které se zaobírají některými z pokročilých možností GnuPG."
+
+#. type: Content of: <html><body><section><div><div><h2>
+#: en/workshops.html:214
+msgid "<em>#6</em> Follow up"
+msgstr "<em>#6</em> Po skončení workshopu"
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:215
+msgid "Make sure everyone has shared email addresses and public key fingerprints before they leave. Encourage the participants to continue to gain GnuPG experience by emailing each other. Send them each an encrypted email one week after the event, reminding them to try adding their public key ID to places where they publicly list their email address."
+msgstr "Ověřte, že před odchodem všichni sdíleli emailovou adresu a veřejný klíč s digitálním otiskem. Povzbuďte je, aby získali další zkušenosti s GnuPG, při vzájemném dopisování. Pošlete jim šifrovaný email týden po workshopu a připomeňte jim aby přidali svůj veřejný klíč na místech, kde zpřístupňují svou emailovou adresu."
+
+#. type: Content of: <html><body><section><div><div><p>
+#: en/workshops.html:216
+msgid "If you have any suggestions for improving this workshop guide, please let us know at <a href=\"mailto:campaigns@fsf.org\">campaigns@fsf.org</a>."
+msgstr "Pokud máte připomínky nebo návrhy, jak vylepšit tuto příručku k workshopu, prosíme dejte nám věďet na <a href=\\\"mailto:campaigns@fsf.org\\\">campaigns@fsf.org</a> "
