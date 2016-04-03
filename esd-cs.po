@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-04-03 00:21+0100\n"
-"PO-Revision-Date: 2016-04-02 19:16+0100\n"
+"PO-Revision-Date: 2016-04-04 00:20+0100\n"
 "Last-Translator: Tomáš Starý <tomichec@gmail.com>\n"
 "Language-Team: \n"
 "Language: cs\n"
@@ -21,36 +21,32 @@ msgstr ""
 
 #. type: Attribute 'content' of: <html><head><meta>
 msgid "text/html; charset=utf-8"
-msgstr ""
+msgstr "text/html; charset=utf-8"
 
 #. type: Content of: <html><head><title>
 msgid ""
 "Email Self-Defense - a guide to fighting surveillance with GnuPG encryption"
-msgstr ""
-"Emailová sebeobrana - příručka pro boj proti špehování s GnuPG šifrováním"
+msgstr "Emailová sebeobrana - příručka pro boj proti špehování s GnuPG šifrováním"
 
 #. type: Attribute 'content' of: <html><head><meta>
 msgid "GnuPG, GPG, privacy, email, Enigmail"
-msgstr ""
+msgstr "GnuPG, GPG, soukromí, email, Enigmail"
 
 #. type: Attribute 'content' of: <html><head><meta>
 msgid ""
 "Email surveillance violates our fundamental rights and makes free speech "
 "risky. This guide will teach you email self-defense in 40 minutes with GnuPG."
-msgstr ""
+msgstr "Špehování emailu porušuje naše základní práva a naše základní práva a ohrožuje svobodu projevu. Tato příručka vás naučí emailovou sebeobranu ve 40 minutách s GnuPG."
 
 #. type: Attribute 'content' of: <html><head><meta>
 msgid "width=device-width, initial-scale=1"
-msgstr ""
+msgstr "width=device-width, initial-scale=1"
 
 #. type: Content of: <html><body><header><div><p>
 msgid ""
 "<strong>Please check your email for a confirmation link now. Thanks for "
 "joining our list!</strong>"
-msgstr ""
-"<strong>Prosíme zkontrolujte váš email, na který byste nyní měli obdržet "
-"odkaz pro potvrzení. Děkujeme vám za připojení se k našemu emailovému listu."
-"</strong>"
+msgstr "<strong>Prosíme zkontrolujte váš email, na který byste nyní měli obdržet odkaz pro potvrzení. Děkujeme vám za připojení se k našemu emailovému listu.</strong>"
 
 #. type: Content of: <html><body><header><div><p>
 msgid ""
@@ -205,7 +201,7 @@ msgstr "Journalism++"
 
 #. type: Attribute 'content' of: <html><head><meta>
 msgid "GnuPG, GPG, openpgp, surveillance, privacy, email, Enigmail"
-msgstr ""
+msgstr "GnuPG, GPG, openpgp, surveillance, soukromí, email, Enigmail"
 
 #. type: Content of: <html><body><header><div><h1>
 msgid "Email Self-Defense"
